@@ -1,0 +1,16 @@
+name = "Chaos"
+author = "Cbrnex"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f9623839001a0c253306a9e14a70808c9fcfc052068f2cb05abf267396d20846"
+
+[versions]
+minecraft = "1.20.1"
+neoforge = "47.1.105"
+
+[options]
+acceptable-game-versions = ["1.20.x", "1.20.0", "1.20"]

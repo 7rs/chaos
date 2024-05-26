@@ -1,0 +1,13 @@
+name = "Out Of Sight"
+filename = "out_of_sight-1.20.1-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sjbXWxYV/versions/fBGV35VM/out_of_sight-1.20.1-1.0.3.jar"
+hash-format = "sha1"
+hash = "ce590f533b2b1dd84703a71192221d4db296d51c"
+
+[update]
+[update.modrinth]
+mod-id = "sjbXWxYV"
+version = "fBGV35VM"
