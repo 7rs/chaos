@@ -1,8 +1,11 @@
 # Chaos  
 
-  The Minecraft mod pack.  
+  ![GitHub License](https://img.shields.io/github/license/7rs/chaos?style=for-the-badge&labelColor=blue&color=000)
+  ![Static Badge](https://img.shields.io/badge/1.20.1-black?style=for-the-badge&label=Minecraft%20Java&labelColor=3C8527)
 
-# MOD List  
+  A mod pack mixing mods from all genres.  
+
+## MOD List  
 
 - [Optimization](resources/optimization.md)
 - [Fix](resources/fix.md)
@@ -37,7 +40,7 @@
   packwiz curseforge export --output ../dist/chaos-curseforge.zip
   ```  
 
-### Add mod  
+## Add mod  
 
   You can add any mods.  
 
