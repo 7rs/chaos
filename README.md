@@ -2,9 +2,18 @@
 
   The Minecraft mod pack.  
 
-## Mods  
+# MOD List  
 
-  See: [MOD List](/MODS.md)  
+- [Optimization](resources/optimization.md)
+- [Fix](resources/fix.md)
+- [Cosmetic](resources/cosmetic.md)
+- [Mechanics](resources/mechanics.md)
+- [Rendering](resources/rendering.md)
+- [Sounds](resources/sounds.md)
+- [Item](resources/item.md)
+- [Mobs](resources/mobs.md)
+- [Quest](resources/quest.md)
+- [World Generation](resources/world-generation.md)
 
 ## Get started  
 
