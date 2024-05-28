@@ -1,9 +1,17 @@
 # Chaos  
 
-  ![GitHub License](https://img.shields.io/github/license/7rs/chaos?style=for-the-badge&labelColor=blue&color=000)
-  ![Static Badge](https://img.shields.io/badge/1.20.1-black?style=for-the-badge&label=Minecraft%20Java&labelColor=3C8527)
+  ![GitHub License](https://img.shields.io/github/license/7rs/chaos?labelColor=blue&color=black)
+  ![Static Badge](https://img.shields.io/badge/packwiz-black?label=powered&labelColor=red)
+  ![Static Badge](https://img.shields.io/badge/neoforge-black?label=loader&labelColor=purple)
+  ![Static Badge](https://img.shields.io/badge/1.20.1-black?label=support&labelColor=green)
 
-  A mod pack mixing mods from all genres.  
+  A modpack mixing mods from any genres.  
+  Supports only 1.20.1 and NeoForge.  
+
+## License  
+
+  The mod licenses is retained.  
+  The toml files by Packwiz and Markdown contents are licensed by CC0.  
 
 ## MOD List  
 
@@ -18,19 +26,17 @@
 - [Quest](resources/quest.md)
 - [World Generation](resources/world-generation.md)
 
-## Get started  
-
-  Clones the chaos repository and Moves the packwiz directory.  
+## Cloning and Installation  
 
   ```sh
-  git clone git@github.com:7rs/chaos.git
+  git clone git@github.com:7rs/chaos.git --depth 1
   ```  
 
   ```sh
-  cd packwiz
+  cd packwiz/packwiz
   ```  
 
-  Exports the modpacak file.
+## Exports modpack
 
   ```sh
   packwiz modrinth export --output ../dist/chaos-modrinth.mrpack
@@ -40,9 +46,7 @@
   packwiz curseforge export --output ../dist/chaos-curseforge.zip
   ```  
 
-## Add mod  
-
-  You can add any mods.  
+## Addition mod  
 
   ```sh
   packwiz modrinth add [URL|Name|ID]
