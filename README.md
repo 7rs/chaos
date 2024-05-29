@@ -1,17 +1,23 @@
 # Chaos  
 
-  ![GitHub License](https://img.shields.io/github/license/7rs/chaos?labelColor=blue&color=black)
-  ![Static Badge](https://img.shields.io/badge/packwiz-black?label=powered&labelColor=red)
-  ![Static Badge](https://img.shields.io/badge/neoforge-black?label=loader&labelColor=purple)
-  ![Static Badge](https://img.shields.io/badge/1.20.1-black?label=support&labelColor=green)
+  ![License](https://img.shields.io/github/license/7rs/chaos?labelColor=blue&color=black)
+  ![Powered](https://img.shields.io/badge/packwiz-black?label=powered&labelColor=red)
+  ![Loader](https://img.shields.io/badge/neoforge-black?label=loader&labelColor=purple)
+  ![version](https://img.shields.io/badge/1.20.1-black?label=support&labelColor=green)
 
   A modpack mixing mods from any genres.  
   Supports only 1.20.1 and NeoForge.  
+
+  あらゆるジャンルのMODがミックスされたMODパック。  
+  NeoForgeの1.20.1のみをサポートする。  
 
 ## License  
 
   The mod licenses is retained.  
   The toml files by Packwiz and Markdown contents are licensed by CC0.  
+
+  MODのライセンスは保持される。  
+  Packwizによって生成されたtomlやMarkdownファイルはCC0の下配布する。  
 
 ## MOD List  
 
@@ -40,10 +46,6 @@
 
   ```sh
   packwiz modrinth export --output ../dist/chaos-modrinth.mrpack
-  ```  
-
-  ```sh
-  packwiz curseforge export --output ../dist/chaos-curseforge.zip
   ```  
 
 ## Addition mod  

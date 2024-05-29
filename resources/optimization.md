@@ -144,13 +144,19 @@
 [distant-horizons_cf]: https://img.shields.io/curseforge/dt/508933?logo=curseforge
 [distant-horizons_gl]: https://img.shields.io/gitlab/last-commit/jeseibel%2Fdistant-horizons?logo=gitlab
 
+[level-of-detail]: https://docs.unity3d.com/ja/2018.4/Manual/LevelOfDetail.html
+
 ## Distant Horizons  
 
   [![Modrinth][distant-horizons_mr]](https://modrinth.com/mod/distanthorizons)
   [![CurseForge][distant-horizons_cf]](https://curseforge.com/minecraft/mc-mods/distant-horizons)
   [![GitLab][distant-horizons_gl]](https://gitlab.com/jeseibel/distant-horizons)
 
-  Implements FoD.  
+  Implements [Level of Detail][level-of-detail].  
+  That's, reduces the quality of distant blocks.  
+
+  [Level of Detail][level-of-detail]の実装。  
+  すなわち、遠くにあるブロックの品質を下げる。  
 
 ---
 
@@ -164,7 +170,9 @@
   [![CurseForge][immediatelyfast_cf]](https://curseforge.com/minecraft/mc-mods/immediatelyfast)
   [![GitHub][immediatelyfast_gh]](https://github.com/raphimc/immediatelyfast)
 
-  Improves for rendering.  
+  Improves for renderings.  
+
+  様々な描画に関する改善を行う。  
 
 ---
 
@@ -176,7 +184,9 @@
   [![CurseForge][better-fps-render-distance_cf]](https://curseforge.com/minecraft/mc-mods/better-fps-render-distance)
   [![GitHub][better-fps-render-distance_gh]](https://github.com/someaddons/betterfpsdistances)
 
-  Changes rendering ranges.  
+  Changes the rendering range for blocks.  
+
+  描画するブロックの範囲を変更する。  
 
 ---
 
@@ -190,7 +200,9 @@
   [![CurseForge][chunky_cf]](https://curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge)
   [![GitLab][chunky_gh]](https://github.com/pop4959/chunky)
 
-  Pre-generates chunks.  
+  Adds commands to pre-generate chunks in the background.  
+
+  バックグラウンドでチャンクを事前生成するコマンドを追加する。  
 
 ---
 
@@ -204,7 +216,9 @@
   [![CurseForge][ksyxis_cf]](https://curseforge.com/minecraft/mc-mods/ksyxis)
   [![GitLab][ksyxis_gh]](https://github.com/vidtu/ksyxis)
 
-  Optimizes loading chunks to improve loading the world.  
+  Optimizes loading chunks.  
+
+  チャンクの読み込みを最適化する。  
 
 ---
 
@@ -218,7 +232,9 @@
   [![CurseForge][noisium_cf]](https://curseforge.com/minecraft/mc-mods/noisium)
   [![GitLab][noisium_gh]](https://github.com/steveplays28/noisium)
 
-  Improves worldgen.  
+  Improves world-generation.  
+
+  ワールド生成を改善する。  
 
 ---
 
@@ -234,6 +250,8 @@
 
   Fixes memory leaks.  
 
+  メモリリークの修正。  
+
 ---
 
 [ferrite-core_mr]: https://img.shields.io/modrinth/dt/uXXizFIs?logo=modrinth
@@ -245,6 +263,10 @@
   [![Modrinth][ferrite-core_mr]](https://modrinth.com/mod/ferrite-core)
   [![CurseForge][ferrite-core_cf]](https://curseforge.com/minecraft/mc-mods/ferritecore)
   [![GitLab][ferrite-core_gh]](https://github.com/malte0811/ferritecore)
+
+  Optimization memory processings and Reduction memory usage.  
+
+  メモリ処理を最適化し、メモリ使用量を減らす。  
 
 ---
 
@@ -258,6 +280,12 @@
   [![CurseForge][saturn_cf]](https://curseforge.com/minecraft/mc-mods/saturn)
   [![GitLab][saturn_gh]](https://github.com/abdelaziz333/saturn)
 
+  Optimization memory processings and Reduction memory usage.  
+  Optimization different from FerriteCore.  
+
+  メモリ処理を最適化し、メモリ使用量を減らす。  
+  FerriteCoreとは異なった最適化を行う。  
+
 ---
 
 [rrls_mr]: https://img.shields.io/modrinth/dt/ZP7xHXtw?logo=modrinth
@@ -270,15 +298,9 @@
   [![CurseForge][rrls_cf]](https://curseforge.com/minecraft/mc-mods/rrls)
   [![GitLab][rrls_gh]](https://github.com/dima-dencep/rrls)
 
----
+  Do processing that blocks main-thread in the backround.  
 
-[fastfurnace_cf]: https://img.shields.io/curseforge/dt/299540?logo=curseforge
-[fastfurnace_gh]: https://img.shields.io/github/last-commit/shadows-of-fire/fastfurnace?logo=github
-
-## FastFurnace  
-
-  [![CurseForge][fastfurnace_cf]](https://curseforge.com/minecraft/mc-mods/fastfurnace)
-  [![GitLab][fastfurnace_gh]](https://github.com/shadows-of-fire/fastfurnace)
+  操作をブロックする処理をバックグラウンドで行う。  
 
 ---
 
@@ -289,6 +311,24 @@
 
   [![CurseForge][fastworkbench_cf]](https://curseforge.com/minecraft/mc-mods/fastworkbench)
   [![GitLab][fastworkbench_gh]](https://github.com/shadows-of-fire/fastworkbench)
+
+  Keeps the cache of workbench recipes.  
+
+  作業台のレシピをキャッシュしておく。  
+
+---
+
+[fastfurnace_cf]: https://img.shields.io/curseforge/dt/299540?logo=curseforge
+[fastfurnace_gh]: https://img.shields.io/github/last-commit/shadows-of-fire/fastfurnace?logo=github
+
+## FastFurnace  
+
+  [![CurseForge][fastfurnace_cf]](https://curseforge.com/minecraft/mc-mods/fastfurnace)
+  [![GitLab][fastfurnace_gh]](https://github.com/shadows-of-fire/fastfurnace)
+
+  Keeps the cache of furnace recipes.  
+
+  かまどのレシピをキャッシュしておく。  
 
 ---
 
