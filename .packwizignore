@@ -1,0 +1,17 @@
+# Generated files
+.git/*
+.vscode/*
+dist/*
+resources/*
+packwiz/*
+
+# Config and Settings
+.editorconfig
+.gitignore
+.markdownlint.json
+.prettierrc
+.prettierignore
+LICENSE
+
+# Wild card
+*.md

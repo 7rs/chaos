@@ -1,0 +1,9 @@
+{
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "prettier.configPath": "./.prettierrc",
+    "prettier.ignorePath": "./.prettierignore",
+    "files.associations": {
+        ".packwizignore": "ignore"
+    }
+}

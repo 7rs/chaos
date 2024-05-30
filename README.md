@@ -22,15 +22,6 @@
 ## MOD List  
 
 - [Optimization](resources/optimization.md)
-- [Fix](resources/fix.md)
-- [Cosmetic](resources/cosmetic.md)
-- [Mechanics](resources/mechanics.md)
-- [Rendering](resources/rendering.md)
-- [Sounds](resources/sounds.md)
-- [Item](resources/item.md)
-- [Mobs](resources/mobs.md)
-- [Quest](resources/quest.md)
-- [World Generation](resources/world-generation.md)
 
 ## Cloning and Installation  
 
@@ -45,17 +36,17 @@
 ## Exports modpack
 
   ```sh
-  packwiz modrinth export --output ../dist/chaos-modrinth.mrpack
+  packwiz modrinth export --output dist/chaos-modrinth.mrpack
   ```  
 
 ## Addition mod  
 
   ```sh
-  packwiz modrinth add [URL|Name|ID]
+  packwiz modrinth add [ProjectID]
   ```  
 
   ```sh
-  packwiz curseforge add [URL|Name|ID]
+  packwiz curseforge add --addon-id [ProjectID]
   ```  
 
 [better-combat]: https://modrinth.com/mod/better-combat
