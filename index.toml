@@ -81,6 +81,11 @@ hash = "871acd627e682cfd9786d0574fb09ab0e9c07493b493c5d8747e243292477256"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "50cccc98a2eabd7abf8d7b0fbb506bbf408a04c40aba21370e6d30053cb0d9bd"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "e4b5b954332718c875877bba25a1aced57deccab885f348d53649c25bf13615f"
 metafile = true
@@ -121,8 +126,38 @@ hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "ab6c2176b162ad517d68ddd9bb2c16f3cacc1fae5ad76abd6e62bc2f1d747f4b"
+metafile = true
+
+[[files]]
 file = "mods/jaopca.pw.toml"
 hash = "0eb09883d5418d87b944e381cb18a804de52062a1b6515119add8f32a38d96e7"
+metafile = true
+
+[[files]]
+file = "mods/jei-integration.pw.toml"
+hash = "06476837027569174dc086ae42b7c8055814f9b8d9f1376b862fc4c54e96e0bd"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "e93f24623fe48bd7eee6e54e80c223ce71e639e210372124b8f22dd6b72924cc"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-integration.pw.toml"
+hash = "4302a5db9e8ba1035efeac609c6e7f3ebebe438c8fb79e4636882d44eb32895c"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "fb76b90010b9b563e80b8b9d741f65363ecd49849aac34ce17c5a6f2dba4a238"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "83219231c7af4677a2507e01ca0faf39acca69f05506148d1d6a3e47b4c94562"
 metafile = true
 
 [[files]]
@@ -153,6 +188,11 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "c823b8ecc940de35aaa2ac7bc8e45842f0b130b388e2aa80dd6e4b57a89773aa"
+metafile = true
+
+[[files]]
+file = "mods/neat.pw.toml"
+hash = "705a6751200d38054d77546f18edc6feba0e30b8fc2095db3af1838d88fb0405"
 metafile = true
 
 [[files]]
@@ -198,4 +238,14 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "86791c7666050fd91e83d4e55400afaa95f55688fb2fe74a8dcd6c4e6e9e42b9"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-refresh.pw.toml"
+hash = "65c6a19fc252bbdba213abe2fa182ec1859fc6072d7ae26b564cbe7fac836852"
+metafile = true
+
+[[files]]
+file = "resourcepacks/food-tooltips.pw.toml"
+hash = "3b95a47a4d5dfe9aedd1d6608d42e43b527a37dac8a762cdf5e611ae57179e0c"
 metafile = true

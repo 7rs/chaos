@@ -13,20 +13,9 @@
   [![Modrinth][journeymap_mr]](https://modrinth.com/mod/journeymap)
   [![CurseForge][journeymap_cf]](https://curseforge.com/minecraft/mc-mods/journeymap)
 
----
+  Adds minimap and fullscreen-map.  
 
-[journeymap-integration_mr]: https://img.shields.io/modrinth/dt/M1ZKbfkJ?logo=modrinth
-[journeymap-integration_cf]: https://img.shields.io/curseforge/dt/525447?logo=curseforge
-[journeymap-integration_gh]: https://img.shields.io/github/last-commit/frank89722/journeymapintegration?logo=github
-
-## JourneyMap Integration  
-
-  | Modrinth | `M1ZKbfkJ` | CurseForge | `525447` |
-  | :------: | :--------: | :--------: | :------: |  
-
-  [![Modrinth][journeymap-integration_mr]](https://modrinth.com/mod/journeymap-integration)
-  [![CurseForge][journeymap-integration_cf]](https://curseforge.com/minecraft/mc-mods/journeymap-integration)
-  [![GitHub][journeymap-integration_gh]](https://github.com/frank89722/journeymapintegration)
+  ミニマップと全画面のマップを追加する。  
 
 ---
 
@@ -43,6 +32,10 @@
   [![CurseForge][jei_cf]](https://curseforge.com/minecraft/mc-mods/jei)
   [![GitHub][jei_gh]](https://github.com/mezz/justenoughitems)
 
+  Adds the list of recipes.  
+
+  レシピの一覧を追加する。  
+
 ---
 
 [just-enough-resources-jer_mr]: https://img.shields.io/modrinth/dt/uEfK2CXF?logo=modrinth
@@ -57,6 +50,10 @@
   [![Modrinth][just-enough-resources-jer_mr]](https://modrinth.com/mod/just-enough-resources-jer)
   [![CurseForge][just-enough-resources-jer_cf]](https://curseforge.com/minecraft/mc-mods/just-enough-resources-jer)
   [![GitHub][just-enough-resources-jer_gh]](https://github.com/way2muchnoise/justenoughresources)
+
+  Adds non-workbench recipes to JEI.  
+
+  JEIに作業台以外のレシピを追加する。  
 
 ---
 
@@ -73,6 +70,10 @@
   [![CurseForge][jei-integration_cf]](https://curseforge.com/minecraft/mc-mods/jei-integration)
   [![GitHub][jei-integration_gh]](https://github.com/snowshock35/jei-integration)
 
+  Adds mod recipes to JEI and adds informations to tooltips.  
+
+  MODのレシピを追加したり、ツールチップに情報を追加したりする。  
+
 ---
 
 [emi_mr]: https://img.shields.io/modrinth/dt/fRiHVvU7?logo=modrinth
@@ -87,6 +88,12 @@
   [![Modrinth][emi_mr]](https://modrinth.com/mod/emi)
   [![CurseForge][emi_cf]](https://curseforge.com/minecraft/mc-mods/emi)
   [![GitHub][emi_gh]](https://github.com/emilyploszaj/emi)
+
+  Adds the **beautiful design** list of recipes.  
+  If JEI is installed, hides JEI and displays recipes from JEI.  
+
+  見やすいレシピの一覧を追加する。  
+  JEIが導入されている場合、JEIを非表示にし、JEIのレシピも表示する。  
 
 ---
 
@@ -103,6 +110,10 @@
   [![CurseForge][jade_cf]](https://curseforge.com/minecraft/mc-mods/jade)
   [![GitHub][jade_gh]](https://github.com/snownee/jade)
 
+  Displays information on a block in front of the player.  
+
+  プレイヤーの目の前にあるブロックの情報を表示する。  
+
 ---
 
 [neat_mr]: https://img.shields.io/modrinth/dt/Ins7SzzR?logo=modrinth
@@ -117,6 +128,10 @@
   [![Modrinth][neat_mr]](https://modrinth.com/mod/neat)
   [![CurseForge][neat_cf]](https://curseforge.com/minecraft/mc-mods/neat)
   [![GitHub][neat_gh]](https://github.com/vazkiimods/neat)
+
+  Displays HP above the mob head.  
+
+  MOBの頭上にHPを表示。  
 
 ---
 
@@ -286,3 +301,20 @@
 <https://www.curseforge.com/minecraft/mc-mods/cut-through>
 <https://modrinth.com/mod/lootr>
 <https://modrinth.com/mod/notenoughcrashes>
+
+---
+
+## Vanilla Refresh  
+
+  <https://modrinth.com/datapack/vanilla-refresh>
+  gWO6Zqey
+
+---
+
+## Food Tooltips  
+
+  <https://modrinth.com/resourcepack/food-tooltips>
+  pedwdTC8
+  <https://www.curseforge.com/minecraft/texture-packs/food-tooltips>
+  862558
+  <https://github.com/zekk051/food-tooltips>

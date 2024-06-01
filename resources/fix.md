@@ -197,6 +197,25 @@
 
 ---
 
+[journeymap-integration_mr]: https://img.shields.io/modrinth/dt/M1ZKbfkJ?logo=modrinth
+[journeymap-integration_cf]: https://img.shields.io/curseforge/dt/525447?logo=curseforge
+[journeymap-integration_gh]: https://img.shields.io/github/last-commit/frank89722/journeymapintegration?logo=github
+
+## JourneyMap Integration  
+
+  | Modrinth | `M1ZKbfkJ` | CurseForge | `525447` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  [![Modrinth][journeymap-integration_mr]](https://modrinth.com/mod/journeymap-integration)
+  [![CurseForge][journeymap-integration_cf]](https://curseforge.com/minecraft/mc-mods/journeymap-integration)
+  [![GitHub][journeymap-integration_gh]](https://github.com/frank89722/journeymapintegration)
+
+  Improves compatibility of JourneyMap.  
+
+  JourneyMapの互換性を向上させる。  
+
+---
+
 [fps-reducer_mr]: https://img.shields.io/modrinth/dt/iZ10HXDj?logo=modrinth
 [fps-reducer_cf]: https://img.shields.io/curseforge/dt/280294?logo=curseforge
 
