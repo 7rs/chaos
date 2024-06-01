@@ -475,3 +475,41 @@
   Keeps the cache of furnace recipes.  
 
   かまどのレシピをキャッシュしておく。  
+
+---
+
+[smooth-boot-reloaded_mr]: https://img.shields.io/modrinth/dt/z53V2L4P?logo=modrinth
+[smooth-boot-reloaded_cf]: https://img.shields.io/curseforge/dt/633412?logo=curseforge
+[smooth-boot-reloaded_gh]: https://img.shields.io/github/last-commit/abdelaziz333/smoothboot-reloaded?logo=github
+
+## Smooth Boot (Reloaded)  
+
+  [![Modrinth][smooth-boot-reloaded_mr]](https://modrinth.com/mod/smooth-boot-reloaded)
+  [![CurseForge][smooth-boot-reloaded_cf]](https://curseforge.com/minecraft/mc-mods/smooth-boot-reloaded)
+  [![GitLab][smooth-boot-reloaded_gh]](https://github.com/abdelaziz333/smoothboot-reloaded)
+
+  | Modrinth | `z53V2L4P` | CurseForge | `633412` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Optimizes startup loading and reduces load.  
+
+  起動時のロードを最適化し、負荷の軽減も行う。  
+
+---
+
+[fast-paintings_mr]: https://img.shields.io/modrinth/dt/z3TzcquW?logo=modrinth
+[fast-paintings_cf]: https://img.shields.io/curseforge/dt/883287?logo=curseforge
+[fast-paintings_gh]: https://img.shields.io/github/last-commit/mehvahdjukaar/fastpaintings?logo=github
+
+## Fast Paintings  
+
+  [![Modrinth][fast-paintings_mr]](https://modrinth.com/mod/fast-paintings)
+  [![CurseForge][fast-paintings_cf]](https://www.curseforge.com/minecraft/mc-mods/fast-paintings)
+  [![GitLab][fast-paintings_gh]](https://github.com/mehvahdjukaar/fastpaintings)
+
+| Modrinth | `z3TzcquW` | CurseForge | `883287` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Renders pictures as regular blocks.  
+
+  絵画を通常のブロックと同じように描画する。  

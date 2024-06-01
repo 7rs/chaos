@@ -91,6 +91,11 @@ hash = "28809a1358dc7822f6b2a244dc4dd8407437caf48b84ed5144ec38e4c48f0b4d"
 metafile = true
 
 [[files]]
+file = "mods/fast-paintings.pw.toml"
+hash = "c1f384e413720c59bf548e1222bd79568870f6a0bd79ce139d0a28dc050799ac"
+metafile = true
+
+[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "932ddad36de5cc064fd285cff392872050de95e262029d336e99f44e0ce01d97"
 metafile = true
@@ -141,6 +146,11 @@ hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
 
 [[files]]
+file = "mods/modelfix.pw.toml"
+hash = "23007c9b06315a062ca923911d9fd89066946f6f52df31c06548fa8bc241b55c"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "c823b8ecc940de35aaa2ac7bc8e45842f0b130b388e2aa80dd6e4b57a89773aa"
 metafile = true
@@ -178,6 +188,11 @@ metafile = true
 [[files]]
 file = "mods/saturn.pw.toml"
 hash = "45646ed86d783d82cc2b804466d4aaf06a67e14766928f17134d02558179f3f0"
+metafile = true
+
+[[files]]
+file = "mods/smooth-boot-reloaded.pw.toml"
+hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
 metafile = true
 
 [[files]]

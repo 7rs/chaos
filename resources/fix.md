@@ -211,3 +211,22 @@
   When AFK, limits framerate to reduce load.  
 
   AFK時、フレームレートを制限して負荷を軽減する。  
+
+---
+
+[modelfix_mr]: https://img.shields.io/modrinth/dt/QdG47OkI?logo=modrinth
+[modelfix_cf]: https://img.shields.io/curseforge/dt/676136?logo=curseforge
+[modelfix_gh]: https://img.shields.io/github/last-commit/mehvahdjukaar/modelfix-multi?logo=github
+
+## Model Gap Fix  
+
+  [![Modrinth][modelfix_mr]](https://modrinth.com/mod/modelfix)
+  [![CurseForge][modelfix_cf]](https://curseforge.com/minecraft/mc-mods/model-gap-fix)
+  [![GitLab][modelfix_gh]](https://github.com/mehvahdjukaar/modelfix-multi)  
+
+  | Modrinth | `QdG47OkI` | CurseForge | `676136` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Fixes texture gaps.  
+
+  テクスチャのずれを修正。  
