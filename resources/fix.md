@@ -1,77 +1,213 @@
 # Fix  
 
-## FPS Reducer  
+  This is inculded bugfix, improving compatible and load reduction.  
 
-  iZ10HXDj
-  <https://modrinth.com/mod/fps-reducer>
-  280294
-  <https://www.curseforge.com/minecraft/mc-mods/fps-reducer>
+  このカテゴリにはバグ修正・互換性向上・負荷軽減のMODが含まれています。  
 
-## AttributeFix  
+## Why?  
 
-  lOOpEntO
-  <https://modrinth.com/mod/attributefix>
-  280510
-  <https://www.curseforge.com/minecraft/mc-mods/attributefix>
-  <https://github.com/Darkhax-Minecraft/AttributeFix>
+  All mods are unofficial and not supported by official.
+  So they may increase bugs and not work correctly.
+  Then, it's helpful the mods to fix bugs.  
+
+  全てのMODは非公式であり、Minecraft公式はサポートしていない。
+  そのため、バグが増えるかもしれないし、正しく動かないこともある。
+  そんなときに役に立つのが修正系MOD。  
+
+---
+
+[memoryleakfix_mr]: https://img.shields.io/modrinth/dt/NRjRiSSD?logo=modrinth
+[memoryleakfix_cf]: https://img.shields.io/curseforge/dt/627566?logo=curseforge
+[memoryleakfix_gh]: https://img.shields.io/github/last-commit/fxmorin/memoryleakfix?logo=github
+
+## Memory Leak Fix  
+
+  [![Modrinth][memoryleakfix_mr]](https://modrinth.com/mod/memoryleakfix)
+  [![CurseForge][memoryleakfix_cf]](https://curseforge.com/minecraft/mc-mods/memoryleakfix)
+  [![GitLab][memoryleakfix_gh]](https://github.com/fxmorin/memoryleakfix)  
+
+  | Modrinth | `NRjRiSSD` | CurseForge | `627566` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Fixes memory leaks.  
+
+  メモリリークの修正。  
+
+---
+
+[netherportalfix_mr]: https://img.shields.io/modrinth/dt/nPZr02ET?logo=modrinth
+[netherportalfix_cf]: https://img.shields.io/curseforge/dt/241160?logo=curseforge
+[netherportalfix_gh]: https://img.shields.io/github/last-commit/twelveiterationmods/netherportalfix?logo=github
+
+[balm]: https://modrinth.com/mod/balm
 
 ## NetherPortalFix  
 
-  nPZr02ET
-  <https://modrinth.com/mod/netherportalfix>
-  241160
-  <https://www.curseforge.com/minecraft/mc-mods/netherportalfix>
-  <https://github.com/TwelveIterationMods/NetherPortalFix>
+  [![Modrinth][netherportalfix_mr]](https://modrinth.com/mod/netherportalfix)
+  [![CurseForge][netherportalfix_cf]](https://curseforge.com/minecraft/mc-mods/netherportalfix)
+  [![GitLab][netherportalfix_gh]](https://github.com/twelveiterationmods/netherportalfix)  
+
+  | Modrinth | `nPZr02ET` | CurseForge | `241160` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Fixes shift when using nether portal.  
+  Requires [Balm][balm].  
+
+  ネザーポータルの出入り口生成のずれを修正する。  
+  [Balm][balm]が必要。  
+
+---
+
+[attributefix_mr]: https://img.shields.io/modrinth/dt/lOOpEntO?logo=modrinth
+[attributefix_cf]: https://img.shields.io/curseforge/dt/280510?logo=curseforge
+[attributefix_gh]: https://img.shields.io/github/last-commit/darkhax-minecraft/attributefix?logo=github
+
+## AttributeFix  
+
+  [![Modrinth][attributefix_mr]](https://modrinth.com/mod/attributefix)
+  [![CurseForge][attributefix_cf]](https://curseforge.com/minecraft/mc-mods/attributefix)
+  [![GitLab][attributefix_gh]](https://github.com/darkhax-minecraft/attributefix)  
+
+  | Modrinth | `lOOpEntO` | CurseForge | `280510` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Disables attribute value limitation
+  and allows all attribute values to be correct.  
+
+  属性値の制限を無効化し、属性値が正しく設定されるようにする。  
+
+---
+
+[polymorph_mr]: https://img.shields.io/modrinth/dt/tagwiZkJ?logo=modrinth
+[polymorph_cf]: https://img.shields.io/curseforge/dt/388800?logo=curseforge
+[polymorph_gh]: https://img.shields.io/github/last-commit/illusivesoulworks/polymorph?logo=github
 
 ## Polymorph  
 
-  tagwiZkJ
-  <https://modrinth.com/mod/polymorph>
-  388800
-  <https://www.curseforge.com/minecraft/mc-mods/polymorph>
-  <https://github.com/illusivesoulworks/polymorph>
+  [![Modrinth][polymorph_mr]](https://modrinth.com/mod/polymorph)
+  [![CurseForge][polymorph_cf]](https://curseforge.com/minecraft/mc-mods/polymorph)
+  [![GitLab][polymorph_gh]](https://github.com/illusivesoulworks/polymorph)  
 
-## Catalogue  
+  | Modrinth | `tagwiZkJ` | CurseForge | `388800` |
+  | :------: | :--------: | :--------: | :------: |  
 
-  459701
-  <https://www.curseforge.com/minecraft/mc-mods/catalogue>
-  <https://github.com/MrCrayfish/Catalogue>
+  Allows selection of recipes and resolves recipe conflicts.  
 
-## Controlling  
+  競合するレシピを選択できるようにして、レシピの衝突を解決する。  
 
-  xv94TkTM
-  <https://modrinth.com/mod/controlling>
-  250398
-  <https://www.curseforge.com/minecraft/mc-mods/controlling>
-  <https://github.com/jaredlll08/Controlling>
+---
 
-## KleeSlabs  
-
-  7uh75ruZ
-  <https://modrinth.com/mod/kleeslabs>
-  241895
-  <https://www.curseforge.com/minecraft/mc-mods/kleeslabs>
-  <https://github.com/TwelveIterationMods/KleeSlabs>
-
-## Double Doors
-
-  JrvR9OHr
-  <https://modrinth.com/mod/double-doors>
-  348831
-  <https://www.curseforge.com/minecraft/mc-mods/double-doors>
-  <https://github.com/Serilum/Double-Doors>
-
-## Better Third Person  
-
-  G1s2WpNo
-  <https://modrinth.com/mod/better-third-person>
-  435044
-  <https://www.curseforge.com/minecraft/mc-mods/better-third-person>
+[terrablender_mr]: https://img.shields.io/modrinth/dt/kkmrDlKT?logo=modrinth
+[terrablender_cf]: https://img.shields.io/curseforge/dt/563928?logo=curseforge
+[terrablender_gh]: https://img.shields.io/github/last-commit/glitchfiend/terrablender?logo=github
 
 ## TerraBlender  
 
-  kkmrDlKT
-  <https://modrinth.com/mod/terrablender>
-  563928
-  <https://www.curseforge.com/minecraft/mc-mods/terrablender>
-  <https://github.com/Glitchfiend/TerraBlender>
+  [![Modrinth][terrablender_mr]](https://modrinth.com/mod/terrablender)
+  [![CurseForge][terrablender_cf]](https://curseforge.com/minecraft/mc-mods/terrablender)
+  [![GitLab][terrablender_gh]](https://github.com/glitchfiend/terrablender)  
+
+  | Modrinth | `kkmrDlKT` | CurseForge | `563928` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Improves compatibility of mods to add biomes.  
+
+  バイオームを追加するMODの互換性を向上させる。  
+
+---
+
+[aeroblender_mr]: https://img.shields.io/modrinth/dt/1eaq94ok?logo=modrinth
+[aeroblender_cf]: https://img.shields.io/curseforge/dt/879879?logo=curseforge
+[aeroblender_gh]: https://img.shields.io/github/last-commit/razordevs/aeroblender?logo=github
+
+[terrablender]: https://modrinth.com/mod/terrablender
+[aether]: https://modrinth.com/mod/aether
+
+## AeroBlender  
+
+  [![Modrinth][aeroblender_mr]](https://modrinth.com/mod/aeroblender)
+  [![CurseForge][aeroblender_cf]](https://curseforge.com/minecraft/mc-mods/aeroblender)
+  [![GitLab][aeroblender_gh]](https://github.com/razordevs/aeroblender)  
+
+  | Modrinth | `1eaq94ok` | CurseForge | `879879` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Makes [TerraBlender][terrablender] compatible with [The Aether][aether].  
+
+  [TerraBlender][terrablender]を[The Aether][aether]に対応させる。  
+
+---
+
+[jaopca_mr]: https://img.shields.io/modrinth/dt/P48mHi2j?logo=modrinth
+[jaopca_cf]: https://img.shields.io/curseforge/dt/266936?logo=curseforge
+[jaopca_gh]: https://img.shields.io/github/last-commit/thelmiffy1111/jaopca?logo=github
+
+## JAOPCA  
+
+  [![Modrinth][jaopca_mr]](https://modrinth.com/mod/jaopca)
+  [![CurseForge][jaopca_cf]](https://curseforge.com/minecraft/mc-mods/jaopca)
+  [![GitLab][jaopca_gh]](https://github.com/thelmiffy1111/jaopca)  
+
+  | Modrinth | `P48mHi2j` | CurseForge | `266936` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Attempts to Integrate duplicate ores.  
+
+  重複している鉱石の統合を試みる。  
+
+---
+
+[every-compat_mr]: https://img.shields.io/modrinth/dt/eiktJyw1?logo=modrinth
+[every-compat_cf]: https://img.shields.io/curseforge/dt/628539?logo=curseforge
+[every-compat_gh]: https://img.shields.io/github/last-commit/mehvahdjukaar/woodgood?logo=github
+
+[moonlight]: https://modrinth.com/mod/moonlight
+
+## Every Compat  
+
+  [![Modrinth][every-compat_mr]](https://modrinth.com/mod/every-compat)
+  [![CurseForge][every-compat_cf]](https://curseforge.com/minecraft/mc-mods/every-compat)
+  [![GitLab][every-compat_gh]](https://github.com/mehvahdjukaar/woodgood)  
+
+  | Modrinth | `eiktJyw1` | CurseForge | `628539` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Ensure all woods can be used in the same way.  
+  Requires [Moonlight Lib][moonlight].  
+
+  全ての木材を、どの木材とも同じように使えるようにする。  
+  [Moonlight Lib][moonlight]が必要。  
+
+---
+
+[loot-integrations_cf]: https://img.shields.io/curseforge/dt/580689?logo=curseforge
+[loot-integrations_gh]: https://img.shields.io/github/last-commit/someaddons/lootintegrations?logo=github
+
+## Loot Integrations  
+
+  [![CurseForge][loot-integrations_cf]](https://curseforge.com/minecraft/mc-mods/loot-integrations)
+  [![GitLab][loot-integrations_gh]](https://github.com/someaddons/lootintegrations)  
+
+  | CurseForge | `580689` |
+  | :--------: | :------: |  
+
+  Allows adds items from the other mod to any bonus chests.  
+
+  他のMODのアイテムをあらゆるボーナスチェストに追加できるようにする。  
+
+---
+
+[fps-reducer_mr]: https://img.shields.io/modrinth/dt/iZ10HXDj?logo=modrinth
+[fps-reducer_cf]: https://img.shields.io/curseforge/dt/280294?logo=curseforge
+
+## FPS Reducer  
+
+  [![Modrinth][fps-reducer_mr]](https://modrinth.com/mod/fps-reducer)
+  [![CurseForge][fps-reducer_cf]](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
+
+  | Modrinth | `iZ10HXDj` | CurseForge | `280294` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  When AFK, limits framerate to reduce load.  
+
+  AFK時、フレームレートを制限して負荷を軽減する。  

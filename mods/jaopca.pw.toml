@@ -1,0 +1,13 @@
+name = "JAOPCA"
+filename = "JAOPCA-1.20.1-4.4.10.15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P48mHi2j/versions/zbV2xuC3/JAOPCA-1.20.1-4.4.10.15.jar"
+hash-format = "sha1"
+hash = "929d9ee056ab1325549643b86c77a8393abbc7e5"
+
+[update]
+[update.modrinth]
+mod-id = "P48mHi2j"
+version = "zbV2xuC3"

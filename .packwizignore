@@ -3,7 +3,6 @@
 .vscode/*
 dist/*
 resources/*
-packwiz/*
 
 # Config and Settings
 .editorconfig

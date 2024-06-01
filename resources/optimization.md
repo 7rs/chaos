@@ -1,5 +1,29 @@
-
 # Optimization  
+
+  This is focuses on improving performance.  
+  [For mods on load reduction.](./fix.md)  
+
+  このカテゴリはパフォーマンス向上に注目しています。  
+  [負荷軽減MODについて](./fix.md)
+
+## Why?  
+
+  Vanilla Minecraft can be enjoyed at even 1080p/60fps,
+  and can be without an ultra-spec computer.
+  But if adds animations, shadows, and difficult mods,
+  1080p/60fps won't be enough. Moreover, if you add heavy mods,
+  even 1080p/60fps will be hard to keep up.  
+  However, buying a high-spec computer isn't easy
+  and don't wanna overload computers.
+  Then, it's helpful the mods to optimize processing.
+  Both low-spec and high-spec computers have their advantages.  
+
+  バニラのMinecraftなら1080p/60fpsでも楽しく遊べるし、
+  ハイスペックなコンピュータも必要ない。
+  しかし、アニメーションや影・難しいMODを追加すれば物足りなくなってくる。
+  さらに、重いMODを追加したら1080/60fpsを維持するのも難しくなる。  
+  そこで役に立つのが最適化MOD。
+  これはローエンドからハイエンドなPC全てに恩恵がある。  
 
 ---
 
@@ -278,25 +302,6 @@
   Improves world-generation.  
 
   ワールド生成を改善する。  
-
----
-
-[memoryleakfix_mr]: https://img.shields.io/modrinth/dt/NRjRiSSD?logo=modrinth
-[memoryleakfix_cf]: https://img.shields.io/curseforge/dt/627566?logo=curseforge
-[memoryleakfix_gh]: https://img.shields.io/github/last-commit/fxmorin/memoryleakfix?logo=github
-
-## Memory Leak Fix  
-
-  [![Modrinth][memoryleakfix_mr]](https://modrinth.com/mod/memoryleakfix)
-  [![CurseForge][memoryleakfix_cf]](https://curseforge.com/minecraft/mc-mods/memoryleakfix)
-  [![GitLab][memoryleakfix_gh]](https://github.com/fxmorin/memoryleakfix)  
-
-  | Modrinth | `NRjRiSSD` | CurseForge | `627566` |
-  | :------: | :--------: | :--------: | :------: |  
-
-  Fixes memory leaks.  
-
-  メモリリークの修正。  
 
 ---
 

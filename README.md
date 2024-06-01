@@ -6,22 +6,23 @@
   ![version](https://img.shields.io/badge/1.20.1-black?label=support&labelColor=green)
 
   A modpack mixing mods from any genres.  
-  Supports only 1.20.1 and NeoForge.  
+  Supports only 1.20.1 and Forge.  
 
   あらゆるジャンルのMODがミックスされたMODパック。  
-  NeoForgeの1.20.1のみをサポートする。  
+  Forgeと1.20.1のみをサポートする。  
 
 ## License  
 
   The mod licenses is retained.  
   The toml files by Packwiz and Markdown contents are licensed by CC0.  
 
-  MODのライセンスは保持される。  
-  Packwizによって生成されたtomlやMarkdownファイルはCC0の下配布する。  
+  MODのライセンスは保持されます。  
+  Packwizによって生成されたtomlやMarkdownファイルはCC0の下配布します。  
 
 ## MOD List  
 
 - [Optimization](resources/optimization.md)
+- [Fix](resources/fix.md)
 
 ## Cloning and Installation  
 

@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/aeroblender.pw.toml"
+hash = "5ecef38011903ef9f4407db64fc55601f4290b49b5cc3402e9f48c4086eee427"
+metafile = true
+
+[[files]]
+file = "mods/aether.pw.toml"
+hash = "801f5f50e8f6022f58e6ff62198958a81924ef6058f52ae6d115952311c5ac6d"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "d45d8ba9633fe8d819e6a8822b5f25807a52a5f29a82e87d31ce8920fd080500"
 metafile = true
@@ -11,8 +21,18 @@ hash = "64a9d35d95525940611e536b2d16ee73dec0c213832195b2f7f8f925e077d774"
 metafile = true
 
 [[files]]
+file = "mods/attributefix.pw.toml"
+hash = "ecdd4372e076170c6b3bc4665dfdc5dac60292aaac013c7f95305b43e8916495"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "55c3c0b90712f84b1936ef69bbc1937bedd2e499b65003e0f22f00ad744a885b"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "1447df8a4bd1fd2cce2ae71f900f3d1f1626baa2fe37c877cef19549a4101c36"
 metafile = true
 
 [[files]]
@@ -66,6 +86,11 @@ hash = "e4b5b954332718c875877bba25a1aced57deccab885f348d53649c25bf13615f"
 metafile = true
 
 [[files]]
+file = "mods/every-compat.pw.toml"
+hash = "28809a1358dc7822f6b2a244dc4dd8407437caf48b84ed5144ec38e4c48f0b4d"
+metafile = true
+
+[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "932ddad36de5cc064fd285cff392872050de95e262029d336e99f44e0ce01d97"
 metafile = true
@@ -81,8 +106,18 @@ hash = "4a73f04a8986129d79ea4f283a0a33ce51af17079b6efa23596af5bc685e1c1e"
 metafile = true
 
 [[files]]
+file = "mods/fps-reducer.pw.toml"
+hash = "148adc903fe1409402b123101158cfb84054ba5b4e4826e017cb3d509d8fb9b2"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
+metafile = true
+
+[[files]]
+file = "mods/jaopca.pw.toml"
+hash = "0eb09883d5418d87b944e381cb18a804de52062a1b6515119add8f32a38d96e7"
 metafile = true
 
 [[files]]
@@ -96,8 +131,23 @@ hash = "11076d97e1627a4355d0bc985896766d50f9161e38f22f50a7abdbdad371e6ad"
 metafile = true
 
 [[files]]
+file = "mods/loot-integrations.pw.toml"
+hash = "d9eb4b00cb9dbf32c6ab202bcfaac537d1846c8a2bc97d50ad8bfb49e06e42bb"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "c823b8ecc940de35aaa2ac7bc8e45842f0b130b388e2aa80dd6e4b57a89773aa"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "da8adfd1a2ab5e050fc182940c9bf972cbcafdbb12e22fe8274ccf47c71e9899"
 metafile = true
 
 [[files]]
@@ -116,6 +166,11 @@ hash = "14eb87dea15b2484cda7bed648ed7382d8636e1e953a0e3f73f92c528c145934"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "00322f0c2a1ed0b9e28f823b3c7f5b40d3ede06db32f3d4aa4d1391a994c306a"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "5dda75dca603e02ab51756805dd28ad878b9ac777a9a6313c1fc031aa7c10967"
 metafile = true
@@ -123,4 +178,9 @@ metafile = true
 [[files]]
 file = "mods/saturn.pw.toml"
 hash = "45646ed86d783d82cc2b804466d4aaf06a67e14766928f17134d02558179f3f0"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "86791c7666050fd91e83d4e55400afaa95f55688fb2fe74a8dcd6c4e6e9e42b9"
 metafile = true
