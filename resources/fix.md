@@ -7,12 +7,12 @@
 ## Why?  
 
   All mods are unofficial and not supported by official.
-  So they may increase bugs and not work correctly.
-  Then, it's helpful the mods to fix bugs.  
+  Mods may also cause conflicts.  
+  The fixing mods fix bugs and improves compatibility.  
 
   全てのMODは非公式であり、Minecraft公式はサポートしていない。
-  そのため、バグが増えるかもしれないし、正しく動かないこともある。
-  そんなときに役に立つのが修正系MOD。  
+  MOD同士が競合することもあります。  
+  修正系MODはバグの修正と互換性の向上を行います。  
 
 ---
 
@@ -201,6 +201,8 @@
 [journeymap-integration_cf]: https://img.shields.io/curseforge/dt/525447?logo=curseforge
 [journeymap-integration_gh]: https://img.shields.io/github/last-commit/frank89722/journeymapintegration?logo=github
 
+[journeymap]: https://modrinth.com/mod/journeymap
+
 ## JourneyMap Integration  
 
   | Modrinth | `M1ZKbfkJ` | CurseForge | `525447` |
@@ -211,8 +213,10 @@
   [![GitHub][journeymap-integration_gh]](https://github.com/frank89722/journeymapintegration)
 
   Improves compatibility of JourneyMap.  
+  Requires [JourneyMap][journeymap].  
 
   JourneyMapの互換性を向上させる。  
+  [JourneyMap][journeymap]が必要。  
 
 ---
 
@@ -249,3 +253,26 @@
   Fixes texture gaps.  
 
   テクスチャのずれを修正。  
+
+---
+
+[jei-integration_mr]: https://img.shields.io/modrinth/dt/umCLwNyK?logo=modrinth
+[jei-integration_cf]: https://img.shields.io/curseforge/dt/265917?logo=curseforge
+[jei-integration_gh]: https://img.shields.io/github/last-commit/snowshock35/jei-integration?logo=github
+
+[jei]: https://modrinth.com/mod/jei
+
+## JEI Integration  
+
+  | Modrinth | `umCLwNyK` | CurseForge | `265917` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  [![Modrinth][jei-integration_mr]](https://modrinth.com/mod/jei-integration)
+  [![CurseForge][jei-integration_cf]](https://curseforge.com/minecraft/mc-mods/jei-integration)
+  [![GitHub][jei-integration_gh]](https://github.com/snowshock35/jei-integration)
+
+  Adds mod recipes to JEI and adds informations to tooltips.  
+  Requires [JEI][jei].  
+
+  MODのレシピを追加したり、ツールチップに情報を追加したりする。  
+  [JEI][jei]が必要。  

@@ -42,6 +42,8 @@
 [just-enough-resources-jer_cf]: https://img.shields.io/curseforge/dt/240630?logo=curseforge
 [just-enough-resources-jer_gh]: https://img.shields.io/github/last-commit/way2muchnoise/justenoughresources?logo=github
 
+[jei]: https://modrinth.com/mod/jei
+
 ## Just Enough Resources  
 
   | Modrinth | `uEfK2CXF` | CurseForge | `240630` |
@@ -52,27 +54,10 @@
   [![GitHub][just-enough-resources-jer_gh]](https://github.com/way2muchnoise/justenoughresources)
 
   Adds non-workbench recipes to JEI.  
+  Requires [JEI][jei].  
 
   JEIに作業台以外のレシピを追加する。  
-
----
-
-[jei-integration_mr]: https://img.shields.io/modrinth/dt/umCLwNyK?logo=modrinth
-[jei-integration_cf]: https://img.shields.io/curseforge/dt/265917?logo=curseforge
-[jei-integration_gh]: https://img.shields.io/github/last-commit/snowshock35/jei-integration?logo=github
-
-## JEI Integration  
-
-  | Modrinth | `umCLwNyK` | CurseForge | `265917` |
-  | :------: | :--------: | :--------: | :------: |  
-
-  [![Modrinth][jei-integration_mr]](https://modrinth.com/mod/jei-integration)
-  [![CurseForge][jei-integration_cf]](https://curseforge.com/minecraft/mc-mods/jei-integration)
-  [![GitHub][jei-integration_gh]](https://github.com/snowshock35/jei-integration)
-
-  Adds mod recipes to JEI and adds informations to tooltips.  
-
-  MODのレシピを追加したり、ツールチップに情報を追加したりする。  
+  [JEI][jei]が必要。  
 
 ---
 
@@ -148,11 +133,17 @@
   [![CurseForge][appleskin_cf]](https://curseforge.com/minecraft/mc-mods/appleskin)
   [![GitHub][appleskin_gh]](https://github.com/squeek502/appleskin)
 
+  Improves the hunger UI.  
+
+  空腹度のUIを改善する。  
+
 ---
 
 [shulkerboxtooltip_mr]: https://img.shields.io/modrinth/dt/2M01OLQq?logo=modrinth
 [shulkerboxtooltip_cf]: https://img.shields.io/curseforge/dt/315811?logo=curseforge
 [shulkerboxtooltip_gh]: https://img.shields.io/github/last-commit/misterpemodder/shulkerboxtooltip?logo=github
+
+[cloth-config]: https://modrinth.com/mod/cloth-config
 
 ## Shulker Box Tooltip  
 
@@ -163,11 +154,19 @@
   [![CurseForge][shulkerboxtooltip_cf]](https://curseforge.com/minecraft/mc-mods/shulkerboxtooltip)
   [![GitHub][shulkerboxtooltip_gh]](https://github.com/misterpemodder/shulkerboxtooltip)
 
+  Displays contents of shulker boxes when the inventory is opened.  
+  Requires [Cloth Config API][cloth-config].  
+
+  インベリトリ画面で、シュルカーボックスの内容を表示する。  
+  [Cloth Config API][cloth-config]が必要。  
+
 ---
 
 [enchantment-descriptions_mr]: https://img.shields.io/modrinth/dt/UVtY3ZAC?logo=modrinth
 [enchantment-descriptions_cf]: https://img.shields.io/curseforge/dt/250419?logo=curseforge
 [enchantment-descriptions_gh]: https://img.shields.io/github/last-commit/darkhax-minecraft/enchantment-descriptions?logo=github
+
+[bookshelf-lib]: https://modrinth.com/mod/bookshelf-lib
 
 ## Enchantment Descriptions  
 
@@ -177,6 +176,12 @@
   [![Modrinth][enchantment-descriptions_mr]](https://modrinth.com/mod/enchantment-descriptions)
   [![CurseForge][enchantment-descriptions_cf]](https://curseforge.com/minecraft/mc-mods/enchantment-descriptions)
   [![GitHub][enchantment-descriptions_gh]](https://github.com/darkhax-minecraft/enchantment-descriptions)
+
+  Add description of enchantments.  
+  Requires [Bookshelf][bookshelf-lib].  
+
+  エンチャントの説明を追加。  
+  [Bookshelf][bookshelf-lib]が必要。  
 
 ---
 
@@ -193,6 +198,10 @@
   [![CurseForge][trajectory-estimation_cf]](https://curseforge.com/minecraft/mc-mods/trajectory-estimation)
   [![GitHub][trajectory-estimation_gh]](https://github.com/sonnenlicht-as/trajectory-estimation)
 
+  Shows the trajectory of the bow and arrow.  
+
+  弓矢の軌道を表示する。  
+
 ---
 
 [inventory-spam_cf]: https://img.shields.io/curseforge/dt/266450?logo=curseforge
@@ -203,9 +212,12 @@
   | CurseForge | `266450` |
   | :--------: | :------: |  
 
-  [![Modrinth][jei_mr]](https://modrinth.com/mod/jei)
   [![CurseForge][inventory-spam_cf]](https://curseforge.com/minecraft/mc-mods/inventory-spam)
   [![GitHub][inventory-spam_gh]](https://github.com/gigaherz/inventoryspam)
+
+  Shows the item flow (getting and disposing).  
+
+  アイテムの取得・破棄を表示。  
 
 ---
 
@@ -220,11 +232,17 @@
   [![CurseForge][catalogue_cf]](https://curseforge.com/minecraft/mc-mods/catalogue)
   [![GitHub][catalogue_gh]](https://github.com/mrcrayfish/catalogue)
 
+  Improves UI of the mod menu.  
+
+  MODのメニューのUIを改善。  
+
 ---
 
 [controlling_mr]: https://img.shields.io/modrinth/dt/xv94TkTM?logo=modrinth
 [controlling_cf]: https://img.shields.io/curseforge/dt/250398?logo=curseforge
 [controlling_gh]: https://img.shields.io/github/last-commit/jaredlll08/controlling?logo=github
+
+[searchables]: https://modrinth.com/mod/searchables
 
 ## Controlling  
 
@@ -234,6 +252,12 @@
   [![Modrinth][controlling_mr]](https://modrinth.com/mod/controlling)
   [![CurseForge][controlling_cf]](https://curseforge.com/minecraft/mc-mods/controlling)
   [![GitHub][controlling_gh]](https://github.com/jaredlll08/controlling)
+
+  Adds search box to key settings.  
+  Requires [Searchables][searchables].  
+
+  キー設定に検索の機能を追加する。  
+  [Searchables][searchables]が必要。  
 
 ---
 
@@ -250,26 +274,17 @@
   [![CurseForge][betterf3_cf]](https://curseforge.com/minecraft/mc-mods/betterf3)
   [![GitHub][betterf3_gh]](https://github.com/treyruffy/betterf3)
 
----
+  Improves display of debugging informations.  
 
-[searchables_mr]: https://img.shields.io/modrinth/dt/fuuu3xnx?logo=modrinth
-[searchables_cf]: https://img.shields.io/curseforge/dt/858542?logo=curseforge
-[searchables_gh]: https://img.shields.io/github/last-commit/jaredlll08/searchables?logo=github
-
-## Searchables  
-
-  | Modrinth | `fuuu3xnx` | CurseForge | `858542` |
-  | :------: | :--------: | :--------: | :------: |  
-
-  [![Modrinth][searchables_mr]](https://modrinth.com/mod/searchables)
-  [![CurseForge][searchables_cf]](https://curseforge.com/minecraft/mc-mods/searchables)
-  [![GitHub][searchables_gh]](https://github.com/jaredlll08/searchables)
+  デバッグ情報の表示を改善。  
 
 ---
 
 [kleeslabs_mr]: https://img.shields.io/modrinth/dt/7uh75ruZ?logo=modrinth
 [kleeslabs_cf]: https://img.shields.io/curseforge/dt/241895?logo=curseforge
 [kleeslabs_gh]: https://img.shields.io/github/last-commit/twelveiterationmods/kleeslabs?logo=github
+
+[balm]: https://modrinth.com/mod/balm
 
 ## KleeSlabs  
 
@@ -280,11 +295,19 @@
   [![CurseForge][kleeslabs_cf]](https://curseforge.com/minecraft/mc-mods/kleeslabs)
   [![GitHub][kleeslabs_gh]](https://github.com/twelveiterationmods/kleeslabs)
 
+  Not changes the half block to the single block (Destruction).  
+  Requires [Balm][balm].  
+
+  半ブロックを１つのブロックにしない（破壊）。  
+  [Balm][balm]が必要。  
+
 ---
 
 [double-doors_mr]: https://img.shields.io/modrinth/dt/JrvR9OHr?logo=modrinth
 [double-doors_cf]: https://img.shields.io/curseforge/dt/348831?logo=curseforge
 [double-doors_gh]: https://img.shields.io/github/last-commit/twelveiterationmods/kleeslabs?logo=github
+
+[collective]: https://modrinth.com/mod/collective
 
 ## Double Doors
 
@@ -295,12 +318,51 @@
   [![CurseForge][double-doors_cf]](https://www.curseforge.com/minecraft/mc-mods/double-doors)
   [![GitHub][double-doors_gh]](https://github.com/serilum/double-doors)
 
+  Allow some doors to be opened in one go.  
+  Requires [Collective][collective].  
+
+  複数のドアを一回で開けるようにする。  
+  [Collective][collective]が必要。  
+
 ---
 
-<https://modrinth.com/mod/friendly-fire>
-<https://www.curseforge.com/minecraft/mc-mods/cut-through>
-<https://modrinth.com/mod/lootr>
-<https://modrinth.com/mod/notenoughcrashes>
+## Friendly Fire  
+
+  <https://modrinth.com/mod/friendly-fire>
+  FTaA4pRW
+  <https://www.curseforge.com/minecraft/mc-mods/friendly-fire>
+  255105
+  <https://github.com/darkhax-minecraft/friendly-fire>
+
+---
+
+## Cut Through  
+
+  <https://modrinth.com/mod/cut-through>
+  Dk6su9JN
+  <https://www.curseforge.com/minecraft/mc-mods/cut-through>
+  969423
+  <https://github.com/fuzss/cutthrough>
+
+---
+
+## Lootr  
+
+  <https://modrinth.com/mod/lootr>
+  EltpO5cN
+  <https://www.curseforge.com/minecraft/mc-mods/lootr>
+  361276
+  <https://github.com/noobanidus/lootr>
+
+---
+
+### Not Enough Crashes
+
+  <https://modrinth.com/mod/notenoughcrashes>
+  yM94ont6
+  <https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes-forge>
+  442354
+  <https://github.com/natanfudge/not-enough-crashes>
 
 ---
 

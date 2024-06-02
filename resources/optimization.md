@@ -8,22 +8,11 @@
 
 ## Why?  
 
-  Vanilla Minecraft can be enjoyed at even 1080p/60fps,
-  and can be without an ultra-spec computer.
-  But if adds animations, shadows, and difficult mods,
-  1080p/60fps won't be enough. Moreover, if you add heavy mods,
-  even 1080p/60fps will be hard to keep up.  
-  However, buying a high-spec computer isn't easy
-  and don't wanna overload computers.
-  Then, it's helpful the mods to optimize processing.
-  Both low-spec and high-spec computers have their advantages.  
+  Optimization mods make Minecraft faster and lighter.  
+  So they also reduces the computer load.  
 
-  バニラのMinecraftなら1080p/60fpsでも楽しく遊べるし、
-  ハイスペックなコンピュータも必要ない。
-  しかし、アニメーションや影・難しいMODを追加すれば物足りなくなってくる。
-  さらに、重いMODを追加したら1080/60fpsを維持するのも難しくなる。  
-  そこで役に立つのが最適化MOD。
-  これはローエンドからハイエンドなPC全てに恩恵がある。  
+  最適化MODはMinecraftをより速く、より軽くします。  
+  つまり、コンピュータの負荷を軽減することにもつながります。  
 
 ---
 

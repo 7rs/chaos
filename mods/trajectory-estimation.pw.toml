@@ -1,0 +1,13 @@
+name = "Trajectory Estimation"
+filename = "trajectory_estimation-1.0.2-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7c13Zjk8/versions/foaUIYK4/trajectory_estimation-1.0.2-1.20.1.jar"
+hash-format = "sha1"
+hash = "d7b2254d127fee81dd7462ba905fba8c5cb62f57"
+
+[update]
+[update.modrinth]
+mod-id = "7c13Zjk8"
+version = "foaUIYK4"
