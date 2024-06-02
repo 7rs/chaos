@@ -205,12 +205,12 @@
 
 ## JourneyMap Integration  
 
-  | Modrinth | `M1ZKbfkJ` | CurseForge | `525447` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][journeymap-integration_mr]](https://modrinth.com/mod/journeymap-integration)
   [![CurseForge][journeymap-integration_cf]](https://curseforge.com/minecraft/mc-mods/journeymap-integration)
   [![GitHub][journeymap-integration_gh]](https://github.com/frank89722/journeymapintegration)
+
+  | Modrinth | `M1ZKbfkJ` | CurseForge | `525447` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Improves compatibility of JourneyMap.  
   Requires [JourneyMap][journeymap].  
@@ -264,12 +264,12 @@
 
 ## JEI Integration  
 
-  | Modrinth | `umCLwNyK` | CurseForge | `265917` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][jei-integration_mr]](https://modrinth.com/mod/jei-integration)
   [![CurseForge][jei-integration_cf]](https://curseforge.com/minecraft/mc-mods/jei-integration)
   [![GitHub][jei-integration_gh]](https://github.com/snowshock35/jei-integration)
+
+  | Modrinth | `umCLwNyK` | CurseForge | `265917` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Adds mod recipes to JEI and adds informations to tooltips.  
   Requires [JEI][jei].  

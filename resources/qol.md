@@ -356,12 +356,12 @@
 
 ## Cut Through  
 
-  | Modrinth | `Dk6su9JN` | CurseForge | `969423` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][cut-through_mr]](https://modrinth.com/mod/cut-through)
   [![CurseForge][cut-through_cf]](https://curseforge.com/minecraft/mc-mods/cut-through)
   [![GitHub][cut-through_gh]](https://github.com/fuzss/cutthrough)
+
+  | Modrinth | `Dk6su9JN` | CurseForge | `969423` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Stops attacks from hitting grasses.  
   Requires [Puzzles Lib][puzzles-lib].  
@@ -377,12 +377,12 @@
 
 ## Lootr  
 
-  | Modrinth | `EltpO5cN` | CurseForge | `361276` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][lootr_mr]](https://modrinth.com/mod/lootr)
   [![CurseForge][lootr_cf]](https://curseforge.com/minecraft/mc-mods/lootr)
   [![GitHub][lootr_gh]](https://github.com/noobanidus/lootr)
+
+  | Modrinth | `EltpO5cN` | CurseForge | `361276` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Not shares contents of the bonus chest.  
 
@@ -396,12 +396,12 @@
 
 ### Not Enough Crashes
 
-  | Modrinth | `yM94ont6` | CurseForge | `442354` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][not-enough-crashes_mr]](https://modrinth.com/mod/notenoughcrashes)
   [![CurseForge][not-enough-crashes_cf]](https://curseforge.com/minecraft/mc-mods/not-enough-crashes-forge)
   [![GitHub][not-enough-crashes_gh]](https://github.com/natanfudge/not-enough-crashes)
+
+  | Modrinth | `yM94ont6` | CurseForge | `442354` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Allow access to the main menu when crashed.  
 
@@ -413,10 +413,10 @@
 
 ## Vanilla Refresh  
 
+  [![Modrinth][vanilla-refresh_mr]](https://modrinth.com/datapack/vanilla-refresh)
+
   | Modrinth | `gWO6Zqey` |
   | :------: | :--------: |
-
-  [![Modrinth][vanilla-refresh_mr]](https://modrinth.com/datapack/vanilla-refresh)
 
   Adds some features without losing the vanilla mood.
 
