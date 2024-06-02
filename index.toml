@@ -101,6 +101,11 @@ hash = "703196e02c2f1c05f8cb8edb7b3ff9f0c1015bf0ead85730f976e09c24ce0fca"
 metafile = true
 
 [[files]]
+file = "mods/cut-through.pw.toml"
+hash = "512199afb263274b758378f2117d8f9abac194cdef1fb79d7cb83e95199259d0"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "fe79cc78adf75a5aa3f32b2ac61a141ee7a4db1baebf628bee058a9c4381b255"
 metafile = true
@@ -163,6 +168,11 @@ metafile = true
 [[files]]
 file = "mods/fps-reducer.pw.toml"
 hash = "148adc903fe1409402b123101158cfb84054ba5b4e4826e017cb3d509d8fb9b2"
+metafile = true
+
+[[files]]
+file = "mods/friendly-fire.pw.toml"
+hash = "b4ba73879e70c398e9031fa5bae119d9afd56089cd61f5d81e8ff73a16d2ed61"
 metafile = true
 
 [[files]]
@@ -231,6 +241,11 @@ hash = "d9eb4b00cb9dbf32c6ab202bcfaac537d1846c8a2bc97d50ad8bfb49e06e42bb"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "2ac92bd60df1038a79fb3d7383fb593d53aaedbd38ebc57a9ab21b815cabe342"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
@@ -261,6 +276,11 @@ hash = "967412dd78791d3c8ed00470ac9dd9473d0d03fdf78d04a9a004ea79bfcbde70"
 metafile = true
 
 [[files]]
+file = "mods/notenoughcrashes.pw.toml"
+hash = "c5e06d475ce3ebc68d5a531c0b4bcf2d6368862fe9d6ab554f1d380865ff7789"
+metafile = true
+
+[[files]]
 file = "mods/out-of-sight.pw.toml"
 hash = "64d01203b2f27e3f8c828203b3ccda5902650ba3b96833f423b9de1c6f52fe6d"
 metafile = true
@@ -273,6 +293,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "00322f0c2a1ed0b9e28f823b3c7f5b40d3ede06db32f3d4aa4d1391a994c306a"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "606194e572cd05573e9ac9978a2321efe31a1f90d24f8b42daac41734c307626"
 metafile = true
 
 [[files]]

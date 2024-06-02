@@ -1,5 +1,9 @@
 # Quality of Life  
 
+  Mods to play minecraft more comfortably.  
+
+  Minecraftをより快適に遊ぶためのMOD。  
+
 ---
 
 [journeymap_mr]: https://img.shields.io/modrinth/dt/lfHFW1mp?logo=modrinth
@@ -7,11 +11,11 @@
 
 ## JourneyMap  
 
-  | Modrinth | `lfHFW1mp` | CurseForge | `32274`  |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][journeymap_mr]](https://modrinth.com/mod/journeymap)
   [![CurseForge][journeymap_cf]](https://curseforge.com/minecraft/mc-mods/journeymap)
+
+  | Modrinth | `lfHFW1mp` | CurseForge | `32274`  |
+  | :------: | :--------: | :--------: | :------: |  
 
   Adds minimap and fullscreen-map.  
 
@@ -25,12 +29,11 @@
 
 ## Just Enough Items  
 
-  | Modrinth | `u6dRKJwZ` | CurseForge | `238222` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][jei_mr]](https://modrinth.com/mod/jei)
   [![CurseForge][jei_cf]](https://curseforge.com/minecraft/mc-mods/jei)
   [![GitHub][jei_gh]](https://github.com/mezz/justenoughitems)
+  | Modrinth | `u6dRKJwZ` | CurseForge | `238222` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Adds the list of recipes.  
 
@@ -46,12 +49,12 @@
 
 ## Just Enough Resources  
 
-  | Modrinth | `uEfK2CXF` | CurseForge | `240630` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][just-enough-resources-jer_mr]](https://modrinth.com/mod/just-enough-resources-jer)
   [![CurseForge][just-enough-resources-jer_cf]](https://curseforge.com/minecraft/mc-mods/just-enough-resources-jer)
   [![GitHub][just-enough-resources-jer_gh]](https://github.com/way2muchnoise/justenoughresources)
+
+  | Modrinth | `uEfK2CXF` | CurseForge | `240630` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Adds non-workbench recipes to JEI.  
   Requires [JEI][jei].  
@@ -67,12 +70,12 @@
 
 ## EMI  
 
-  | Modrinth | `fRiHVvU7` | CurseForge | `580555` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][emi_mr]](https://modrinth.com/mod/emi)
   [![CurseForge][emi_cf]](https://curseforge.com/minecraft/mc-mods/emi)
   [![GitHub][emi_gh]](https://github.com/emilyploszaj/emi)
+
+  | Modrinth | `fRiHVvU7` | CurseForge | `580555` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Adds the **beautiful design** list of recipes.  
   If JEI is installed, hides JEI and displays recipes from JEI.  
@@ -88,12 +91,12 @@
 
 ## Jade  
 
-  | Modrinth | `nvQzSEkH` | CurseForge | `324717` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][jade_mr]](https://modrinth.com/mod/jade)
   [![CurseForge][jade_cf]](https://curseforge.com/minecraft/mc-mods/jade)
   [![GitHub][jade_gh]](https://github.com/snownee/jade)
+
+  | Modrinth | `nvQzSEkH` | CurseForge | `324717` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Displays information on a block in front of the player.  
 
@@ -107,12 +110,12 @@
 
 ## Neat  
 
-  | Modrinth | `Ins7SzzR` | CurseForge | `238372` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][neat_mr]](https://modrinth.com/mod/neat)
   [![CurseForge][neat_cf]](https://curseforge.com/minecraft/mc-mods/neat)
   [![GitHub][neat_gh]](https://github.com/vazkiimods/neat)
+
+  | Modrinth | `Ins7SzzR` | CurseForge | `238372` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Displays HP above the mob head.  
 
@@ -126,12 +129,12 @@
 
 ## AppleSkin  
 
-  | Modrinth | `EsAfCjCV` | CurseForge | `248787` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][appleskin_mr]](https://modrinth.com/mod/appleskin)
   [![CurseForge][appleskin_cf]](https://curseforge.com/minecraft/mc-mods/appleskin)
   [![GitHub][appleskin_gh]](https://github.com/squeek502/appleskin)
+
+  | Modrinth | `EsAfCjCV` | CurseForge | `248787` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Improves the hunger UI.  
 
@@ -147,12 +150,12 @@
 
 ## Shulker Box Tooltip  
 
-  | Modrinth | `2M01OLQq` | CurseForge | `315811` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][shulkerboxtooltip_mr]](https://modrinth.com/mod/shulkerboxtooltip)
   [![CurseForge][shulkerboxtooltip_cf]](https://curseforge.com/minecraft/mc-mods/shulkerboxtooltip)
   [![GitHub][shulkerboxtooltip_gh]](https://github.com/misterpemodder/shulkerboxtooltip)
+
+  | Modrinth | `2M01OLQq` | CurseForge | `315811` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Displays contents of shulker boxes when the inventory is opened.  
   Requires [Cloth Config API][cloth-config].  
@@ -170,12 +173,12 @@
 
 ## Enchantment Descriptions  
 
-  | Modrinth | `UVtY3ZAC` | CurseForge | `250419` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][enchantment-descriptions_mr]](https://modrinth.com/mod/enchantment-descriptions)
   [![CurseForge][enchantment-descriptions_cf]](https://curseforge.com/minecraft/mc-mods/enchantment-descriptions)
   [![GitHub][enchantment-descriptions_gh]](https://github.com/darkhax-minecraft/enchantment-descriptions)
+
+  | Modrinth | `UVtY3ZAC` | CurseForge | `250419` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Add description of enchantments.  
   Requires [Bookshelf][bookshelf-lib].  
@@ -191,12 +194,12 @@
 
 ## Trajectory Estimation  
 
-  | Modrinth | `7c13Zjk8` | CurseForge | `980915` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][trajectory-estimation_mr]](https://modrinth.com/mod/trajectory-estimation)
   [![CurseForge][trajectory-estimation_cf]](https://curseforge.com/minecraft/mc-mods/trajectory-estimation)
   [![GitHub][trajectory-estimation_gh]](https://github.com/sonnenlicht-as/trajectory-estimation)
+
+  | Modrinth | `7c13Zjk8` | CurseForge | `980915` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Shows the trajectory of the bow and arrow.  
 
@@ -209,11 +212,11 @@
 
 ## Inventory Spam  
 
-  | CurseForge | `266450` |
-  | :--------: | :------: |  
-
   [![CurseForge][inventory-spam_cf]](https://curseforge.com/minecraft/mc-mods/inventory-spam)
   [![GitHub][inventory-spam_gh]](https://github.com/gigaherz/inventoryspam)
+
+  | CurseForge | `266450` |
+  | :--------: | :------: |  
 
   Shows the item flow (getting and disposing).  
 
@@ -226,11 +229,11 @@
 
 ## Catalogue  
 
-  | CurseForge | `459701` |
-  | :--------: | :------: |  
-
   [![CurseForge][catalogue_cf]](https://curseforge.com/minecraft/mc-mods/catalogue)
   [![GitHub][catalogue_gh]](https://github.com/mrcrayfish/catalogue)
+
+  | CurseForge | `459701` |
+  | :--------: | :------: |  
 
   Improves UI of the mod menu.  
 
@@ -246,12 +249,12 @@
 
 ## Controlling  
 
-  | Modrinth | `xv94TkTM` | CurseForge | `250398` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][controlling_mr]](https://modrinth.com/mod/controlling)
   [![CurseForge][controlling_cf]](https://curseforge.com/minecraft/mc-mods/controlling)
   [![GitHub][controlling_gh]](https://github.com/jaredlll08/controlling)
+
+  | Modrinth | `xv94TkTM` | CurseForge | `250398` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Adds search box to key settings.  
   Requires [Searchables][searchables].  
@@ -267,12 +270,12 @@
 
 ## BetterF3  
 
-  | Modrinth | `8shC1gFX` | CurseForge | `401648` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][betterf3_mr]](https://modrinth.com/mod/betterf3)
   [![CurseForge][betterf3_cf]](https://curseforge.com/minecraft/mc-mods/betterf3)
   [![GitHub][betterf3_gh]](https://github.com/treyruffy/betterf3)
+
+  | Modrinth | `8shC1gFX` | CurseForge | `401648` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Improves display of debugging informations.  
 
@@ -288,12 +291,12 @@
 
 ## KleeSlabs  
 
-  | Modrinth | `7uh75ruZ` | CurseForge | `241895` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][kleeslabs_mr]](https://modrinth.com/mod/kleeslabs)
   [![CurseForge][kleeslabs_cf]](https://curseforge.com/minecraft/mc-mods/kleeslabs)
   [![GitHub][kleeslabs_gh]](https://github.com/twelveiterationmods/kleeslabs)
+
+  | Modrinth | `7uh75ruZ` | CurseForge | `241895` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Not changes the half block to the single block (Destruction).  
   Requires [Balm][balm].  
@@ -311,12 +314,12 @@
 
 ## Double Doors
 
-  | Modrinth | `JrvR9OHr` | CurseForge | `348831` |
-  | :------: | :--------: | :--------: | :------: |  
-
   [![Modrinth][double-doors_mr]](https://modrinth.com/mod/double-doors)
   [![CurseForge][double-doors_cf]](https://www.curseforge.com/minecraft/mc-mods/double-doors)
   [![GitHub][double-doors_gh]](https://github.com/serilum/double-doors)
+
+  | Modrinth | `JrvR9OHr` | CurseForge | `348831` |
+  | :------: | :--------: | :--------: | :------: |  
 
   Allow some doors to be opened in one go.  
   Requires [Collective][collective].  
@@ -326,57 +329,114 @@
 
 ---
 
+[friendly-fire_mr]: https://img.shields.io/modrinth/dt/FTaA4pRW?logo=modrinth
+[friendly-fire_cf]: https://img.shields.io/curseforge/dt/255105?logo=curseforge
+[friendly-fire_gh]: https://img.shields.io/github/last-commit/darkhax-minecraft/friendly-fire?logo=github
+
 ## Friendly Fire  
 
-  <https://modrinth.com/mod/friendly-fire>
-  FTaA4pRW
-  <https://www.curseforge.com/minecraft/mc-mods/friendly-fire>
-  255105
-  <https://github.com/darkhax-minecraft/friendly-fire>
+  [![Modrinth][friendly-fire_mr]](https://modrinth.com/mod/friendly-fire)
+  [![CurseForge][friendly-fire_cf]](https://curseforge.com/minecraft/mc-mods/friendly-fire)
+  [![GitHub][friendly-fire_gh]](https://github.com/darkhax-minecraft/friendly-fire)
+
+  | Modrinth | `FTaA4pRW` | CurseForge | `255105` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Disables attacks on friendly mobs.  
+
+  友好MOBへの攻撃を無効化。  
 
 ---
+
+[cut-through_mr]: https://img.shields.io/modrinth/dt/Dk6su9JN?logo=modrinth
+[cut-through_cf]: https://img.shields.io/curseforge/dt/969423?logo=curseforge
+[cut-through_gh]: https://img.shields.io/github/last-commit/fuzss/cutthrough?logo=github
+
+[puzzles-lib]: https://modrinth.com/mod/puzzles-lib
 
 ## Cut Through  
 
-  <https://modrinth.com/mod/cut-through>
-  Dk6su9JN
-  <https://www.curseforge.com/minecraft/mc-mods/cut-through>
-  969423
-  <https://github.com/fuzss/cutthrough>
+  | Modrinth | `Dk6su9JN` | CurseForge | `969423` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  [![Modrinth][cut-through_mr]](https://modrinth.com/mod/cut-through)
+  [![CurseForge][cut-through_cf]](https://curseforge.com/minecraft/mc-mods/cut-through)
+  [![GitHub][cut-through_gh]](https://github.com/fuzss/cutthrough)
+
+  Stops attacks from hitting grasses.  
+  Requires [Puzzles Lib][puzzles-lib].  
+
+  攻撃が草に当たらないようにする。  
+  [Puzzles Lib][puzzles-lib]が必要。  
 
 ---
+
+[lootr_mr]: https://img.shields.io/modrinth/dt/EltpO5cN?logo=modrinth
+[lootr_cf]: https://img.shields.io/curseforge/dt/361276?logo=curseforge
+[lootr_gh]: https://img.shields.io/github/last-commit/noobanidus/lootr?logo=github
 
 ## Lootr  
 
-  <https://modrinth.com/mod/lootr>
-  EltpO5cN
-  <https://www.curseforge.com/minecraft/mc-mods/lootr>
-  361276
-  <https://github.com/noobanidus/lootr>
+  | Modrinth | `EltpO5cN` | CurseForge | `361276` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  [![Modrinth][lootr_mr]](https://modrinth.com/mod/lootr)
+  [![CurseForge][lootr_cf]](https://curseforge.com/minecraft/mc-mods/lootr)
+  [![GitHub][lootr_gh]](https://github.com/noobanidus/lootr)
+
+  Not shares contents of the bonus chest.  
+
+  ボーナスチェストの内容を共有しない。  
 
 ---
+
+[not-enough-crashes_mr]: https://img.shields.io/modrinth/dt/yM94ont6?logo=modrinth
+[not-enough-crashes_cf]: https://img.shields.io/curseforge/dt/442354?logo=curseforge
+[not-enough-crashes_gh]: https://img.shields.io/github/last-commit/natanfudge/not-enough-crashes?logo=github
 
 ### Not Enough Crashes
 
-  <https://modrinth.com/mod/notenoughcrashes>
-  yM94ont6
-  <https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes-forge>
-  442354
-  <https://github.com/natanfudge/not-enough-crashes>
+  | Modrinth | `yM94ont6` | CurseForge | `442354` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  [![Modrinth][not-enough-crashes_mr]](https://modrinth.com/mod/notenoughcrashes)
+  [![CurseForge][not-enough-crashes_cf]](https://curseforge.com/minecraft/mc-mods/not-enough-crashes-forge)
+  [![GitHub][not-enough-crashes_gh]](https://github.com/natanfudge/not-enough-crashes)
+
+  Allow access to the main menu when crashed.  
+
+  クラッシュしたときにメインメニューにアクセスできるようにする。  
 
 ---
+
+[vanilla-refresh_mr]: https://img.shields.io/modrinth/dt/gWO6Zqey?logo=modrinth
 
 ## Vanilla Refresh  
 
-  <https://modrinth.com/datapack/vanilla-refresh>
-  gWO6Zqey
+  | Modrinth | `gWO6Zqey` |
+  | :------: | :--------: |
+
+  [![Modrinth][vanilla-refresh_mr]](https://modrinth.com/datapack/vanilla-refresh)
+
+  Adds some features without losing the vanilla mood.
+
+  バニラの雰囲気を崩さず、様々な要素を追加する。  
 
 ---
 
+[food-tooltips_mr]: https://img.shields.io/modrinth/dt/pedwdTC8?logo=modrinth
+[food-tooltips_cf]: https://img.shields.io/curseforge/dt/862558?logo=curseforge
+[food-tooltips_gh]: https://img.shields.io/github/last-commit/zekk051/food-tooltips?logo=github
+
 ## Food Tooltips  
 
-  <https://modrinth.com/resourcepack/food-tooltips>
-  pedwdTC8
-  <https://www.curseforge.com/minecraft/texture-packs/food-tooltips>
-  862558
-  <https://github.com/zekk051/food-tooltips>
+  [![Modrinth][food-tooltips_mr]](https://modrinth.com/resourcepack/food-tooltips)
+  [![CurseForge][food-tooltips_cf]](https://curseforge.com/minecraft/texture-packs/food-tooltips)
+  [![GitHub][food-tooltips_gh]](https://github.com/zekk051/food-tooltips)
+
+  | Modrinth | `pedwdTC8` | CurseForge | `862558` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Shows amounts of hunger recovery for the item.  
+
+  アイテムの空腹回復度を表示する。  

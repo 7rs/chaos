@@ -31,15 +31,19 @@
   | Better Fps | ARR |
   | Loot Integrations | ARR |
   | Cupboard | ARR |
+  | Inventory Spam | BSD (CurseForge) / ARR (GitHub) |
   | Bocchium | LGPL-3.0 |
   | FastWorkbench | MIT |
   | FastFurnace | MIT |
-  | Placebo | MIT |  
+  | Placebo | MIT |
+  | JEI Integration | MIT |
+  | Catalogue | MIT |
 
 ## MOD List  
 
 - [Optimization](resources/optimization.md)
 - [Fix](resources/fix.md)
+- [QoL (Quality of Life)](resources/qol.md)
 
 ## Cloning and Installation  
 
