@@ -1,6 +1,74 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "af9ce9b541e442685d090ebfd7b995c4ae399e24fff7a9771b689e226f70d283"
+
+[[files]]
+file = "config/betterf3.toml"
+hash = "6f91a48b72580b46d031a3d6922039a3b5891ae07badbccab60646699218ee39"
+
+[[files]]
+file = "config/embeddium++.toml"
+hash = "83bb37ad726ce2b2229ad68f020a5996cb0ce40a5ffad06ae1a6b95714272f42"
+
+[[files]]
+file = "config/embeddium-options.json"
+hash = "bc49501f0df45a73be60a7fa6d445d85c6e3a247f083a64b0f3e9ce9c715fee5"
+
+[[files]]
+file = "journeymap/config/5.9/journeymap.core.config"
+hash = "cbd1a69362aa08a398f7de76bff1ba824eaa114e4cd0f6324555430b7ce8f2f4"
+
+[[files]]
+file = "journeymap/config/5.9/journeymap.fullmap.config"
+hash = "50b29c3e0b40c5bbdc9222dc26813ec08a737152d8d83097dee0f7b7f79f2876"
+
+[[files]]
+file = "journeymap/config/5.9/journeymap.minimap.config"
+hash = "efb702bd04a23da611d485c8a4fd2aeffbedce0b5fe1b4617a04819305f528d2"
+
+[[files]]
+file = "journeymap/config/5.9/journeymap.minimap2.config"
+hash = "167b9f007adaa1bd403473e0f12676e25d698dc482d76f3796f0cda97b41031b"
+
+[[files]]
+file = "journeymap/config/5.9/journeymap.topo.config"
+hash = "be003b5213358302ad3b72f9d3e6e095032220e6a2a09c53e23844658e13d10e"
+
+[[files]]
+file = "journeymap/config/5.9/journeymap.waypoint.config"
+hash = "ab7840c32eec2d004efecfd4109a8bbf94bdd4916785ef4837f12598809ae63a"
+
+[[files]]
+file = "journeymap/config/5.9/journeymap.webmap.config"
+hash = "bed5c03a6aff5400b2c5563f810780101c97caa4f092447042189f7c83023b0c"
+
+[[files]]
+file = "journeymap/server/5.9/journeymap.server.aether~the_aether.config"
+hash = "28ab0c99e76101c4dfea5cf786068cf8ab29c8a7b3f043a54e8861c96e6dd599"
+
+[[files]]
+file = "journeymap/server/5.9/journeymap.server.default.config"
+hash = "78f0639aeac496ef2a48d8b2f64dba43b65c78babf0347ba4af99cce23f4945c"
+
+[[files]]
+file = "journeymap/server/5.9/journeymap.server.global.config"
+hash = "897b98b76ba92d86753948751e772ce1de4ce6fb26e31902f82777c7ba0eff47"
+
+[[files]]
+file = "journeymap/server/5.9/journeymap.server.minecraft~overworld.config"
+hash = "7fef85a5e56f2d7788246675eeed6bbe083bf1e9bfb688b03239448ac2c2b6e4"
+
+[[files]]
+file = "journeymap/server/5.9/journeymap.server.minecraft~the_end.config"
+hash = "573b891ef691b9e79317132f3f51c5ab5423b55e8b92089e880952553b05ed05"
+
+[[files]]
+file = "journeymap/server/5.9/journeymap.server.minecraft~the_nether.config"
+hash = "4c6b40a9e3149a1afac80ed5077d20657df84185432738acf198791e9fb94b2b"
+
+[[files]]
 file = "mods/aeroblender.pw.toml"
 hash = "5ecef38011903ef9f4407db64fc55601f4290b49b5cc3402e9f48c4086eee427"
 metafile = true
@@ -339,6 +407,10 @@ metafile = true
 file = "mods/vanilla-refresh.pw.toml"
 hash = "65c6a19fc252bbdba213abe2fa182ec1859fc6072d7ae26b564cbe7fac836852"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "eb8971a110d3384b594b2beb3cb1c308848234d8c66e3da32809d934d7e59851"
 
 [[files]]
 file = "resourcepacks/food-tooltips.pw.toml"

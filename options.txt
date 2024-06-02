@@ -1,0 +1,9 @@
+entityShadows:false
+maxFps:100
+renderClouds:"false"
+resourcePacks:["vanilla","mod_resources","jaopca:inmemory","Moonlight Mods Dynamic Assets","file/Food Tooltips-1.0.4.zip"]
+soundCategory_music:0.0
+renderDistance:8
+simulationDistance:8
+fov:0.8
+graphicsMode:0
