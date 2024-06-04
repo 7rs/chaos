@@ -440,3 +440,77 @@
   Shows amounts of hunger recovery for the item.  
 
   アイテムの空腹回復度を表示する。  
+
+---
+
+[clickable-advancements_cf]: https://img.shields.io/curseforge/dt/511733?logo=curseforge
+[clickable-advancements_gh]: https://img.shields.io/github/last-commit/someaddons/clickableadvancements?logo=github
+
+## Clickable advancements  
+
+  [![CurseForge][clickable-advancements_cf]](https://curseforge.com/minecraft/mc-mods/clickable-advancements)
+  [![GitHub][clickable-advancements_gh]](https://github.com/someaddons/clickableadvancements)
+
+  | CurseForge | `511733` |
+  | :--------: | :------: |  
+
+  Makes it clickable to advancements.  
+
+  実績をクリックできるようにする。  
+
+---
+
+[autohud_mr]: https://img.shields.io/modrinth/dt/temczoTQ?logo=modrinth
+[autohud_cf]: https://img.shields.io/curseforge/dt/623806?logo=curseforge
+[autohud_gh]: https://img.shields.io/github/last-commit/crendgrim/autohud?logo=github
+
+## Auto HUD  
+
+  [![Modrinth][autohud_mr]](https://modrinth.com/mod/autohud)
+  [![CurseForge][autohud_cf]](https://curseforge.com/minecraft/mc-mods/auto-hud)
+  [![GitHub][autohud_gh]](https://github.com/crendgrim/autohud)
+
+  | Modrinth | `temczoTQ` | CurseForge | `623806` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Hides HUD automatically.  
+
+  HUDを自動で非表示にする。  
+
+---
+
+[bad-wither-no-cookie_mr]: https://img.shields.io/modrinth/dt/lL2MtE37?logo=modrinth
+[bad-wither-no-cookie_cf]: https://img.shields.io/curseforge/dt/261251?logo=curseforge
+[bad-wither-no-cookie_gh]: https://img.shields.io/github/last-commit/kreezxil/badwithernocookie?logo=github
+
+## Bad Wither No Cookie - Reloaded  
+
+  [![Modrinth][bad-wither-no-cookie_mr]](https://modrinth.com/mod/bad-wither-no-cookie)
+  [![CurseForge][bad-wither-no-cookie_cf]](https://curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded)
+  [![GitHub][bad-wither-no-cookie_gh]](https://gitlab.com/kreezxil/badwithernocookie)
+
+  | Modrinth | `lL2MtE37` | CurseForge | `261251` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Resolves loud sound effects.  
+
+  うるさすぎるSEをどうにかする。  
+
+---
+
+[cha-s_mr]: https://img.shields.io/modrinth/dt/fExf3hZa?logo=modrinth
+[cha-s_cf]: https://img.shields.io/curseforge/dt/224841?logo=curseforge
+[cha-s_gh]: https://img.shields.io/github/last-commit/ewyboy/cha-s?logo=github
+
+## Craftable Horse Armour & Saddle [CHA&S]
+
+  [![Modrinth][cha-s_mr]](https://modrinth.com/mod/cha-s)
+  [![CurseForge][cha-s_cf]](https://www.curseforge.com/minecraft/mc-mods/cha-s)
+  [![GitHub][cha-s_gh]](https://github.com/ewyboy/cha-s)
+
+  | Modrinth | `fExf3hZa` | CurseForge | `224841` |
+  | :------: | :--------: | :--------: | :------: |  
+
+  Allows to craft horse armours.  
+
+  馬鎧をクラフトできるようにする。  

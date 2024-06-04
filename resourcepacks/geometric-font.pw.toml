@@ -1,0 +1,13 @@
+name = "Geometric Font Legacy"
+filename = "GeoFont Legacy v1.2 GUI Scale 4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hIdXd06Y/versions/keY7PlVK/GeoFont%20Legacy%20v1.2%20GUI%20Scale%204.zip"
+hash-format = "sha1"
+hash = "e610825ce800bd9d190671b092b4d3fd858e9711"
+
+[update]
+[update.modrinth]
+mod-id = "hIdXd06Y"
+version = "keY7PlVK"

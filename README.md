@@ -85,3 +85,7 @@
   ```sh
   packwiz modrinth add --project-id 5sy6g3kz --version-id hNenqXi9
   ```  
+
+  ```sh
+  packwiz modrinth add --project-id GchcoXML --version-id Bj8M79wL
+  ```  

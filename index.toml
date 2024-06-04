@@ -6,7 +6,7 @@ hash = "af9ce9b541e442685d090ebfd7b995c4ae399e24fff7a9771b689e226f70d283"
 
 [[files]]
 file = "config/betterf3.toml"
-hash = "6f91a48b72580b46d031a3d6922039a3b5891ae07badbccab60646699218ee39"
+hash = "530edd910e2a6e0fbca53a48a03d9789049ceb575fc166c2ead709f333562020"
 
 [[files]]
 file = "config/embeddium++.toml"
@@ -15,6 +15,10 @@ hash = "83bb37ad726ce2b2229ad68f020a5996cb0ce40a5ffad06ae1a6b95714272f42"
 [[files]]
 file = "config/embeddium-options.json"
 hash = "bc49501f0df45a73be60a7fa6d445d85c6e3a247f083a64b0f3e9ce9c715fee5"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "22376a85910f126129b3ac822c51ade04749305308df978e2492f14fbd2707f6"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.core.config"
@@ -99,6 +103,16 @@ hash = "ecdd4372e076170c6b3bc4665dfdc5dac60292aaac013c7f95305b43e8916495"
 metafile = true
 
 [[files]]
+file = "mods/autohud.pw.toml"
+hash = "f8dfc4c3dd09d37c703887883f7b9528c3db6f13ac4a999818910bbee7dcf9ff"
+metafile = true
+
+[[files]]
+file = "mods/bad-wither-no-cookie.pw.toml"
+hash = "943bd83f41b472ed7b4dd4236c826bd8f36983c32e3e7841b9ceca4d01531d53"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "55c3c0b90712f84b1936ef69bbc1937bedd2e499b65003e0f22f00ad744a885b"
 metafile = true
@@ -109,6 +123,11 @@ hash = "1447df8a4bd1fd2cce2ae71f900f3d1f1626baa2fe37c877cef19549a4101c36"
 metafile = true
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "2bef9c1f47174d832175c2a6c05eb6504e1d37c59ba1cb3287315590532eb574"
+metafile = true
+
+[[files]]
 file = "mods/better-fps-render-distance.pw.toml"
 hash = "70cb54081f56a748b298a87d1825bac70405d4b4a28c4a4f18228691930baa34"
 metafile = true
@@ -116,6 +135,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "ca52b58cf0540bcec5d8b0318cddb371683b6f3f87ad9b925ff600ddd330f461"
+metafile = true
+
+[[files]]
+file = "mods/biome_particle_weather.pw.toml"
+hash = "3dab0c12ac33d048ea2051120d1feb7ec5a0f3819294f294c18810d22296c609"
 metafile = true
 
 [[files]]
@@ -134,8 +158,18 @@ hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
 metafile = true
 
 [[files]]
+file = "mods/cha-s.pw.toml"
+hash = "49795859a6f93a02c471715459778c314f3b021e51ecc0cd6e80e9897a6c7bac"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "5fe1f778e66001230e37dba27caf42a5a5170b9030a09c17c88c2198438695e6"
+metafile = true
+
+[[files]]
+file = "mods/clickable-advancements.pw.toml"
+hash = "588807da8d9fcf5b9670a0b9804d8a3c400a4985b23e8aa7368f4e7c6e721f80"
 metafile = true
 
 [[files]]
@@ -234,6 +268,11 @@ hash = "4a73f04a8986129d79ea4f283a0a33ce51af17079b6efa23596af5bc685e1c1e"
 metafile = true
 
 [[files]]
+file = "mods/forge-cit.pw.toml"
+hash = "f0f999293f442227eab70ab867bf14f1ed5c7f2ffda3d2e984a1e8e4e07daa24"
+metafile = true
+
+[[files]]
 file = "mods/fps-reducer.pw.toml"
 hash = "148adc903fe1409402b123101158cfb84054ba5b4e4826e017cb3d509d8fb9b2"
 metafile = true
@@ -314,6 +353,11 @@ hash = "2ac92bd60df1038a79fb3d7383fb593d53aaedbd38ebc57a9ab21b815cabe342"
 metafile = true
 
 [[files]]
+file = "mods/make_bubbles_pop.pw.toml"
+hash = "6838240b825c5b2f362ed03da14e93f4449b29bc016370fba46bbf3312b79d10"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
@@ -349,6 +393,11 @@ hash = "c5e06d475ce3ebc68d5a531c0b4bcf2d6368862fe9d6ab554f1d380865ff7789"
 metafile = true
 
 [[files]]
+file = "mods/oculus.pw.toml"
+hash = "524acd510387c61c5f3c984e605fae03015434ae756b683d3b45a95951180394"
+metafile = true
+
+[[files]]
 file = "mods/out-of-sight.pw.toml"
 hash = "64d01203b2f27e3f8c828203b3ccda5902650ba3b96833f423b9de1c6f52fe6d"
 metafile = true
@@ -366,6 +415,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "606194e572cd05573e9ac9978a2321efe31a1f90d24f8b42daac41734c307626"
+metafile = true
+
+[[files]]
+file = "mods/reblured.pw.toml"
+hash = "7c73d209d9ec538302f039f52666177249c5aea6a5538f65e53c906fb285bc91"
 metafile = true
 
 [[files]]
@@ -404,15 +458,75 @@ hash = "aab5beeaed73e1e1a548cf922520a273824a0540192ce9fdde0b14cff58ca502"
 metafile = true
 
 [[files]]
+file = "mods/travelers-titles.pw.toml"
+hash = "43284a55e537cb96d28160cdadab96dfd2ed3712529cc546a1c03313dd99eb46"
+metafile = true
+
+[[files]]
 file = "mods/vanilla-refresh.pw.toml"
 hash = "65c6a19fc252bbdba213abe2fa182ec1859fc6072d7ae26b564cbe7fac836852"
 metafile = true
 
 [[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "896b09e7166d70f08e089862ad5eb8dbc8cfed02608f2c478587dbea191aadf2"
+metafile = true
+
+[[files]]
 file = "options.txt"
-hash = "eb8971a110d3384b594b2beb3cb1c308848234d8c66e3da32809d934d7e59851"
+hash = "f0d0c843e8f47735e3cc84b9afaeb60b6bfb5e6c7516f2c192908276920bf883"
+
+[[files]]
+file = "resourcepacks/enchant-icons-countxd.pw.toml"
+hash = "e9e57742366174ee106acf48dbcbb2b03860b931600c8fbe1208961ca2661937"
+metafile = true
+
+[[files]]
+file = "resourcepacks/enhanced-boss-bars.pw.toml"
+hash = "591bda29ea000a2ab9003782f1aa395773e5b8f292d1b7b4c5db4888b1d7de74"
+metafile = true
+
+[[files]]
+file = "resourcepacks/even-better-enchants.pw.toml"
+hash = "369852a15ba98f38e88e116d61be97323eeed834a5b06bc6ab36b30a2fde2d76"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fast-better-grass.pw.toml"
+hash = "2d9ab5d76c32219c684dbb599ef9ebc6d99148a084c38bc61c0cf1ea5f16a77c"
+metafile = true
 
 [[files]]
 file = "resourcepacks/food-tooltips.pw.toml"
 hash = "3b95a47a4d5dfe9aedd1d6608d42e43b527a37dac8a762cdf5e611ae57179e0c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/geometric-font.pw.toml"
+hash = "7afb0e4127ac2f5f84d11f7fa36c35275caabef0e36ca0c649e0c5b7c5bb3784"
+metafile = true
+
+[[files]]
+file = "resourcepacks/unique-dark.pw.toml"
+hash = "2c9853c423434e94fef2e3d1a27b47369fa2bd1ad02773609b120a816c963fa5"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "5975a2513ad3de7d0bc32684d907515d0566d8d312b609df8624f7dbc53442c8"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "1e9f9f7053c256baf766dddba7a1f929634f5629c6787ae4ff1f117159232c22"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "5821f960ab766cc441934d39998677b224c9e1c6efb965af2d1fa7f8eab73f58"
+metafile = true
+
+[[files]]
+file = "shaderpacks/super-duper-vanilla.pw.toml"
+hash = "1683c77bd28b838c8e79222036a0ecd0ae040d07f61f752faab6fbdf3672f1fb"
 metafile = true
