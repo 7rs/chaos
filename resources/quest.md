@@ -1,3 +1,0 @@
-# Quest  
-
-End Remastered

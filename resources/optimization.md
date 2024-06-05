@@ -1,6 +1,6 @@
 # Optimization  
 
-  This is focuses on improving performance.  
+  This is focused on improving performance.  
   [For mods on load reduction.](./fix.md)  
 
   このカテゴリはパフォーマンス向上に注目しています。  

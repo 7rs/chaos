@@ -73,6 +73,11 @@ file = "journeymap/server/5.9/journeymap.server.minecraft~the_nether.config"
 hash = "4c6b40a9e3149a1afac80ed5077d20657df84185432738acf198791e9fb94b2b"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "9091ac09b5c7cfb9472940dbcdfdf764d1f903495171dd4b4cd566eb83d8a40b"
+metafile = true
+
+[[files]]
 file = "mods/aeroblender.pw.toml"
 hash = "5ecef38011903ef9f4407db64fc55601f4290b49b5cc3402e9f48c4086eee427"
 metafile = true
@@ -90,6 +95,11 @@ metafile = true
 [[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "64a9d35d95525940611e536b2d16ee73dec0c213832195b2f7f8f925e077d774"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "b201822bafd445bc68af99d4530c6384226ed06c63fcd9aa47e4d1c4e13e4da6"
 metafile = true
 
 [[files]]
@@ -190,6 +200,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "2a50d21837bba88e3c9490c6bb8e0a9b44b052645d5c1481b48a060439c20a3c"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "9261b71e382b07771083e0998e2a8e6997a874e8384fd0e1020774ae8c64baba"
 metafile = true
 
 [[files]]
@@ -388,6 +403,11 @@ hash = "967412dd78791d3c8ed00470ac9dd9473d0d03fdf78d04a9a004ea79bfcbde70"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "26ca76ce6d17ce793960ef92cf1933f0e2330a425ff4f048d7d094f2a133f508"
+metafile = true
+
+[[files]]
 file = "mods/notenoughcrashes.pw.toml"
 hash = "c5e06d475ce3ebc68d5a531c0b4bcf2d6368862fe9d6ab554f1d380865ff7789"
 metafile = true
@@ -415,6 +435,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "606194e572cd05573e9ac9978a2321efe31a1f90d24f8b42daac41734c307626"
+metafile = true
+
+[[files]]
+file = "mods/quality-sounds.pw.toml"
+hash = "11e53c0a87bd2aa39231083dda2a1ea90bffc7964130fe7f5d927e88a434df85"
 metafile = true
 
 [[files]]
@@ -448,6 +473,16 @@ hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "e4ab43d334081c68d199162c9a5da630b667d693a782464ed1bd01d21887f867"
+metafile = true
+
+[[files]]
+file = "mods/spawn-animations.pw.toml"
+hash = "61e88480a7df95b00cae33f2dec5eadadd96ba4d68e2536ca036584495961a4f"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "86791c7666050fd91e83d4e55400afaa95f55688fb2fe74a8dcd6c4e6e9e42b9"
 metafile = true
@@ -465,6 +500,11 @@ metafile = true
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
 hash = "65c6a19fc252bbdba213abe2fa182ec1859fc6072d7ae26b564cbe7fac836852"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+hash = "7d5dba4cf4a48ae96d728377767c5cd1b3d743967255b987d272c6f884372463"
 metafile = true
 
 [[files]]

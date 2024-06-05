@@ -44,6 +44,10 @@
 - [Optimization](resources/optimization.md)
 - [Fix](resources/fix.md)
 - [QoL (Quality of Life)](resources/qol.md)
+- [3D graphics](resources/3d-graphic.md)
+- [HUD](resources/3d-hud.md)
+- [2D graphics/GUI](resources/2d-gui.md)
+- [SE/BGM](resources/sounds.md)
 
 ## Cloning and Installation  
 
