@@ -47,3 +47,5 @@ https://www.curseforge.com/minecraft/texture-packs/visual-travelers-titles
   | :------: | :--------: | :--------: | :------: |  
 
   ボスの体力バーを改善する。  
+
+---

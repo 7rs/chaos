@@ -514,3 +514,5 @@
   Allows to craft horse armours.  
 
   馬鎧をクラフトできるようにする。  
+
+---

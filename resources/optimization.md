@@ -1,10 +1,10 @@
 # Optimization  
 
   This is focused on improving performance.  
-  [For mods on load reduction.](./fix.md)  
+  [Load reduction Mods](./fix.md)  
 
   このカテゴリはパフォーマンス向上に注目しています。  
-  [負荷軽減MODについて](./fix.md)
+  [負荷軽減MOD](./fix.md)
 
 ## Why?  
 
@@ -12,7 +12,7 @@
   So they also reduces the computer load.  
 
   最適化MODはMinecraftをより速く、より軽くします。  
-  つまり、コンピュータの負荷を軽減することにもつながります。  
+  これは負荷の軽減にもつながります。  
 
 ---
 
@@ -20,6 +20,7 @@
 [embeddium_cf]: https://img.shields.io/curseforge/dt/908741?logo=curseforge
 [embeddium_gh]: https://img.shields.io/github/last-commit/embeddedt/embeddium?logo=github
 
+[forge]: https://files.minecraftforge.net/net/minecraftforge/forge
 [sodium]: https://modrinth.com/mod/sodium
 [optifine]: https://optifine.net/home
 [rubidium]: https://modrinth.com/mod/rubidium
@@ -33,11 +34,11 @@
   | Modrinth | `sk9rgfiA` | CurseForge | `908741` |
   | :------: | :--------: | :--------: | :------: |  
 
-  A Forge port of [Sodium][sodium] that improves performance.  
-  More compatible than [Optifine][optifine] and maintained better than
-  [Rubidium][rubidium].  
+  A [Forge][forge] port of [Sodium][sodium] that improves performance.  
+  More compatible than [Optifine][optifine]
+  and maintained better than [Rubidium][rubidium].  
 
-  パフォーマンスを向上させる[Sodium][sodium]のForge移植版。  
+  パフォーマンスを向上させる[Sodium][sodium]の[Forge][forge]移植版。  
   [Optifine][optifine]より互換性が高く、[Rubidium][rubidium]よりメンテナンスされている。  
 
 ---
@@ -60,11 +61,13 @@
   | Modrinth | `yD9qW65f` | CurseForge | `931925` |
   | :------: | :--------: | :--------: | :------: |  
 
-  Replacement of [Embeddium/Rubidium Extras][magnesium-extras] or
-  [Embeddium (Rubidium) Extra][embeddium-rubidium-extras] that are A Forge port of [Sodium Extra][sodium-extra].  
+  Replacement of  [Embeddium/Rubidium Extras][magnesium-extras]
+  or [Embeddium (Rubidium) Extra][embeddium-rubidium-extras]  
+  that are A [Forge][forge] port of [Sodium Extra][sodium-extra].  
   Adds features and settings to [Embeddium][embeddium].  
 
-  [Sodium Extra][sodium-extra]のForge移植版である[Embeddium/Rubidium Extras][magnesium-extras]や
+  [Sodium Extra][sodium-extra]のForge移植版である、  
+  [Embeddium/Rubidium Extras][magnesium-extras]や
   [Embeddium (Rubidium) Extra][embeddium-rubidium-extras]の置き換え。  
   [Embeddium][embeddium]に機能や設定を追加する。  
 
@@ -83,9 +86,9 @@
   | Modrinth | `5ZwdcRci` | CurseForge | `686911` |
   | :------: | :--------: | :--------: | :------: |  
 
-  Improves for renderings.  
+  Improves renderings.  
 
-  様々な描画に関する改善を行う。  
+  描画に関する改善を行う。  
 
 ---
 
@@ -123,9 +126,9 @@
   | Modrinth | `sjbXWxYV` | CurseForge | `428199` |
   | :------: | :--------: | :--------: | :------: |  
 
-  Simplifies rendering for distant blocks.  
+  Simplifies rendering and processing for distant blocks.  
 
-  遠くにあるブロックの描画を簡略化する。  
+  遠くにあるブロックの描画・処理を簡略化する。  
 
 ---
 
@@ -144,11 +147,11 @@
   | Modrinth | `uCdwusMi` | CurseForge | `508933` |
   | :------: | :--------: | :--------: | :------: |  
 
-  Implements [Level of Detail][level-of-detail].  
-  That's, reduces the quality of distant blocks.  
+  Reduces the quality of distant blocks.  
+  An implementation [Level of Detail][level-of-detail].  
 
+  遠くにあるブロックの品質を下げる。  
   [Level of Detail][level-of-detail]の実装。  
-  すなわち、遠くにあるブロックの品質を下げる。  
 
 ---
 
@@ -168,10 +171,11 @@
   | Modrinth | `qthuEuVy` | CurseForge | `840788` |
   | :------: | :--------: | :--------: | :------: |  
 
-  A Forge port of [Cull Less Leaves][cull-less-leaves] that skips rendering of inner leafs.  
+  A [Forge][forge] port of [Cull Less Leaves][cull-less-leaves] that skips rendering of inner leafs.  
   Also, more beautiful than [Cull Leaves][cull-leaves].  
 
-  内側の葉のレンダリングをスキップする[Cull Less Leaves][cull-less-leaves]のForge移植版。  
+  内側の葉のレンダリングをスキップする
+  [Cull Less Leaves][cull-less-leaves]の[Forge][forge]移植版。  
   また、[Cull Leaves][cull-leaves]のようにハゲすぎない。  
 
 ---
@@ -189,10 +193,11 @@
   | CurseForge | `905450` |
   | :--------: | :------: |  
 
-  A Forge port for [Bedrodium][bedrodium] that removes invisible surfacess of blocks.  
+  A [Forge][forge]
+   port for [Bedrodium][bedrodium] that removes invisible surfacess of blocks.  
   Requires [Embeddium][embeddium] or [Rubidium][rubidium].  
 
-  ブロックの見えない面を削除する[Bedrodium][bedrodium]のForge移植版。  
+  ブロックの見えない面を削除する[Bedrodium][bedrodium]の[Forge][forge]移植版。  
   [Embeddium][embeddium]か[Rubidium][rubidium]が必要。  
 
 ---
@@ -230,7 +235,7 @@
   | :------: | :--------: | :--------: | :------: |  
 
   Merges many XP orbs into one group.  
-  And can get all orbs If collects orbs once.  
+  And can get all orbs if collects orbs once.  
 
   XPのオーブを一つのグループにまとめる。  
   そして、オーブの回収は一回で済むようになる。  
@@ -250,9 +255,9 @@
   | Modrinth | `2ecVyZ49` | CurseForge | `537533` |
   | :------: | :--------: | :--------: | :------: |  
 
-  Optimizes loading chunks.  
+  Not load nearby chunks to speed-up when enters the world.  
 
-  チャンクの読み込みを最適化する。  
+  ワールドに入るとき、近くのチャンクを読み込まないことで高速化する。  
 
 ---
 
@@ -338,6 +343,8 @@
 [rrls_cf]: https://img.shields.io/curseforge/dt/833233?logo=curseforge
 [rrls_gh]: https://img.shields.io/github/last-commit/dima-dencep/rrls?logo=github
 
+[fancymenu]: https://modrinth.com/mod/fancymenu
+
 ## Remove Reloading Screen  
 
   [![Modrinth][rrls_mr]](https://modrinth.com/mod/rrls)
@@ -348,8 +355,10 @@
   | :------: | :--------: | :--------: | :------: |  
 
   Do processing that blocks main-thread in the backround.  
+  Raises error when use with [FancyMenu][fancymenu].  
 
   操作をブロックする処理をバックグラウンドで行う。  
+  [FancyMenu][fancymenu]と併用するとエラーが発生する。  
 
 ---
 
@@ -462,8 +471,10 @@
   | :--------: | :------: |  
 
   Keeps the cache of furnace recipes.  
+  Requires [Placebo][placebo].  
 
   かまどのレシピをキャッシュしておく。  
+  [Placebo][placebo]が必要。  
 
 ---
 
@@ -496,9 +507,11 @@
   [![CurseForge][fast-paintings_cf]](https://www.curseforge.com/minecraft/mc-mods/fast-paintings)
   [![GitLab][fast-paintings_gh]](https://github.com/mehvahdjukaar/fastpaintings)
 
-| Modrinth | `z3TzcquW` | CurseForge | `883287` |
+  | Modrinth | `z3TzcquW` | CurseForge | `883287` |
   | :------: | :--------: | :--------: | :------: |  
 
   Renders pictures as regular blocks.  
 
   絵画を通常のブロックと同じように描画する。  
+
+---
