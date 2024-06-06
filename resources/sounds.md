@@ -1,12 +1,14 @@
-# SoundEffects / Background Musics  
+# Sound Effects / Background Musics  
 
-  This is focused sound-effects and background musics.  
+  This is focused sound effects and background musics.  
 
 ---
 
 [sound-physics-remastered_mr]: https://img.shields.io/modrinth/dt/qyVF9oeo?logo=modrinth
 [sound-physics-remastered_cf]: https://img.shields.io/curseforge/dt/535489?logo=curseforge
 [sound-physics-remastered_gh]: https://img.shields.io/github/last-commit/henkelmax/sound-physics-remastered?logo=github
+
+[cloth-config]: https://modrinth.com/mod/cloth-config
 
 ## Sound Physics Remastered  
 
@@ -16,6 +18,12 @@
 
   | Modrinth | `qyVF9oeo` | CurseForge | `535489` |
   | :------: | :--------: | :--------: | :------: |  
+
+  Resonates sounds realistically.  
+  Requires [Cloth Config API][cloth-config].  
+
+  音の響き方をリアルにする。  
+  [Cloth Config API][cloth-config]が必要。  
 
 ---
 
@@ -34,7 +42,11 @@
   | Modrinth | `fM515JnW` | CurseForge | `254284` |
   | :------: | :--------: | :--------: | :------: |  
 
+  Adds ambient sounds.  
   Requires [CreativeCore][creativecore].  
+
+  環境音を追加する。  
+  [CreativeCore][creativecore]が必要。  
 
 ---
 
@@ -46,5 +58,11 @@
 
   | Modrinth | `ZAfRfkTo` |
   | :------: | :--------: |  
+
+  Adds more sound effects.  
+  Requires [Cloth Config API][cloth-config].  
+
+  効果音を追加する。  
+  [Cloth Config API][cloth-config]が必要。  
 
 ---
