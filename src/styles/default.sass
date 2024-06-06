@@ -1,0 +1,19 @@
+@mixin paddings($left: 0, $right: 0, $top: 0, $bottom: 0)
+  padding-left: 0
+  padding-right: 0
+  padding-top: 0
+  padding-bottom: 0
+
+@mixin margins($left: 0, $right: 0, $top: 0, $bottom: 0)
+  margin-left: 0
+  margin-right: 0
+  margin-top: 0
+  margin-bottom: 0
+
+:where(*)
+  @include paddings(0, 0, 0, 0)
+  @include margins(0, 0, 0, 0)
+
+  box-sizing: border-box
+  color: white
+  font-family: monospace
