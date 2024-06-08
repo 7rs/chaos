@@ -1,55 +1,49 @@
 ---
-import { getImage } from "astro:assets";
+import { Icon } from "astro-icon/components"
 
 import Header from "./Header.astro";
 import Footer from "./Footer.astro";
 
-import background from "../assets/mSbTKLCZ4I0.jpg";
+// import defaultBackground from "../assets/mSbTKLCZ4I0.jpg";
 import "../styles/default.sass";
 
 export interface Props {
   title: string;
 }
 
-const { title } = Astro.props;
+const { title} = Astro.props;
 
-
-
-const resolution = 720;
-const optimizedBackground = await getImage({
-  src: background,
-  format: "avif",
-  quality: 70,
-  width: Math.trunc(resolution * (background.width / background.height)),
-});
-const styleOptimizedBackground = `url(${optimizedBackground.src})`;
 ---
 
 <html>
   <head>
     <title>{title}</title>
   </head>
-  <body class="min-h-screen w-full flex flex-col">
-    <Header>Chaos</Header>
-    <main class="grow"><slot /></main>
+  <body class="relative min-h-screen w-full flex flex-col">
+    <Header><Icon name="chaos" /></Header>
+    <main class="grow flex flex-col gap-32"><slot /></main>
     <Footer>Licensed by CC0</Footer>
   </body>
 </html>
 
-<style lang="sass" define:vars={{ styleOptimizedBackground }}>
+<style lang="sass">
   header
     z-index: 100
+
+  body
+    background-color: black
 
   main
     position: relative
 
-    &::before
-      z-index: -100
-      position: fixed
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
-      content: ""
-      background: var(--styleOptimizedBackground) center/cover no-repeat fixed
+    // &::before
+    //   z-index: -100
+    //   position: fixed
+    //   top: 0
+    //   left: 0
+    //   width: 100%
+    //   height: 100%
+    //   content: ""
+    //   background-color: black
+    //   background-size: 200%
 </style>

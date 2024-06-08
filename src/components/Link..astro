@@ -1,0 +1,54 @@
+---
+import {Icon} from "astro-icon/components"
+
+export interface Props {
+  href: string;
+  title?: string;
+  className?: string;
+  openInNewTab?: boolean;
+  style?: "normal" | "button";
+  icon?: string;
+}
+
+const { href, title, openInNewTab, className, style, icon, ...props } = Astro.props;
+
+let defaultClass = icon ? "flex gap-2 " : ""
+
+switch (style) {
+  case "button":
+    defaultClass += "border border-solid rounded-lg py-2 px-6 text-xl no-underline"
+    break
+  default:
+    defaultClass += "text-xl"
+    break
+}
+---
+
+<a
+  href={href}
+  title={title}
+  target={openInNewTab ? "_blank" : undefined}
+  class={className ? `${defaultClass} ${className}` : defaultClass}
+  referrerpolicy="no-referrer"
+  rel="noopener noreferrer"
+  data-link-type={style}
+  data-link
+  {...props}
+>
+  {icon && <Icon name={icon} />}
+  <slot />
+</a>
+
+<style lang="sass">
+  [data-link-type="button"], [data-link-type="button"]:hover
+    transition-property: all
+    transition-duration: 100ms
+    transition-timing-function: linear
+
+  [data-link]:hover
+    box-shadow: 0 0 16px white
+
+  [data-icon]
+    display: block
+    margin: auto
+</style>

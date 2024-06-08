@@ -10,6 +10,22 @@
   margin-top: 0
   margin-bottom: 0
 
+@mixin font-face-style($family, $style: normal, $display: swap, $weight: weight)
+  font-family: $family
+  font-style: $style
+  font-display: $display
+  font-weight: $weight
+
+@font-face
+  @include font-face-style("Fira Mono")
+  src: url(@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2) format('woff2')
+  unicode-range: U+0000-00FF
+
+@font-face
+  @include font-face-style("Zilla Slab", $weight: 700)
+  src: url(@fontsource/zilla-slab/files/zilla-slab-latin-700-normal.woff2) format('woff2')
+  unicode-range: U+0000-00FF
+
 :where(*)
   @include paddings(0, 0, 0, 0)
   @include margins(0, 0, 0, 0)
@@ -17,3 +33,10 @@
   box-sizing: border-box
   color: white
   font-family: monospace
+
+:where(p, a)
+  font-family: 'Fira Mono', monospace
+
+:where(h1, h2, h3, h4, h5, h6)
+  font-family: 'Zilla Slab', serif
+

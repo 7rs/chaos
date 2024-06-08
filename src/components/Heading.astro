@@ -1,0 +1,29 @@
+---
+export interface Props {
+  title: string;
+  depth?: number;
+  className?: string;
+}
+
+const {title, depth = 2, className, ...props} = Astro.props;
+---
+
+<hgroup class={"flex flex-col gap-4 text-center " + (className ? className : "")} {...props}>
+  {() => {
+    switch (depth) {
+      case 1:
+        return <h1 class="text-8xl">{title}</h1>
+      case 2:
+        return <h2 class="text-7xl">{title}</h2>
+      case 3:
+        return <h3>{title}</h3>
+      case 4:
+        return <h4>{title}</h4>
+      case 5:
+        return <h5>{title}</h5>
+      case 6:
+        return <h6>{title}</h6>
+    }
+  }}
+  <p class="text-2xl"><slot /></p>
+</hgroup>

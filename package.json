@@ -5,6 +5,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "astro": "astro",
         "dev": "astro dev",
         "build": "astro build",
         "preview": "astro preview"
@@ -17,7 +18,11 @@
     },
     "devDependencies": {
         "@astrojs/check": "^0.7.0",
+        "@fontsource/fira-mono": "^5.0.13",
+        "@fontsource/zilla-slab": "^5.0.13",
+        "@iconify-json/simple-icons": "^1.1.104",
         "@types/node": "^20.14.2",
+        "astro-icon": "^1.1.0",
         "autoprefixer": "^10.4.19",
         "postcss-preset-env": "^9.5.14",
         "prettier": "^3.3.1",

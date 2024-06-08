@@ -1,17 +1,51 @@
 ---
-import MainLayout from "../layouts/MainLayout.astro"
+import MainLayout from "../layouts/MainLayout.astro";
+
+import Heading from "../components/Heading.astro";
+import Link from "../components/Link..astro";
+
+import { Icon } from "astro-icon/components";
 ---
 
-
 <MainLayout title="Chaos Modpack">
-  <hgroup class="text-center my-32">
-    <h1 class="text-8xl">Chaos</h1>
-    <p class="text-2xl">A modpack mixing mods from any genres.</p>
-  </hgroup>
-  <div class="m-auto flex justify-center gap-6 text-2xl">
-    <p>Explore</p>
-    <p>Docs</p>
-    <p>Code</p>
-  </div>
-</MainLayout>
+  <section class="h-lvh flex flex-col justify-center gap-16">
+    <div class="flex flex-col gap-8">
+      <Icon class="m-auto text-8xl" name="chaos" />
+      <p class="text-2xl text-center">A modpack mixing mods from any genres.</p>
+    </div>
+    <div class="flex justify-center gap-6 text-2xl">
+      <Link href="/docs" style="button" openInNewTab>Docs</Link>
+      <Link href="https://github.com/7rs/chaos" style="button" icon="simple-icons:github" openInNewTab>Code</Link>
+    </div>
+  </section>
 
+  <section id="explore">
+    <Heading title="New World" depth={2}> Added biomes, dimensions, structures and more. </Heading>
+  </section>
+
+  <section id="requirements">
+    <Heading title="Requirements" depth={2} className="" />
+    <table class="m-auto text-2xl">
+      <tbody>
+        <tr>
+          <th>Version</th>
+          <td>Minecraft Java Edition 1.20.1</td>
+        </tr>
+        <tr>
+          <th>Mod Loader</th>
+          <td>Forge</td>
+        </tr>
+        <tr>
+          <th>Launcher</th>
+          <td>Prism Launcher (Optional)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="download">
+    <Heading title="Download" depth={2} className="">
+      Under the development
+    </Heading>
+  </section>
+</MainLayout>
