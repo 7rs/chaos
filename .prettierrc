@@ -1,0 +1,39 @@
+{
+    "printWidth": 120,
+    "useTabs": false,
+    "tabWidth": 2,
+    "singleQuote": false,
+    "semi": true,
+    "endOfLine": "lf",
+    "options.editorconfig": true,
+    "plugins": ["prettier-plugin-astro"],
+    "astroAllowShorthand": false,
+    "overrides": [
+        {
+            "files": [".prettierrc", "*.json"],
+            "options": {
+                "parser": "json",
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": [
+                "*.ts",
+                "*.mjs",
+                "*.*.mjs",
+                "*.cjs",
+                "*.*.cjs",
+                "astro.config.mjs",
+                "postcss.config.mjs",
+                "*.mdx"
+            ],
+            "options": {
+                "singleQuote": true
+            }
+        },
+        {
+            "files": ["*.styl"],
+            "options": { "trailingComma": "all" }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+---
+export interface Props {
+  title: string;
+  modrinth?: { id: string; name: string };
+  curseforge?: { id: string; name: string };
+  source?: { author: string; name: string; service: "github" | "gitlab" };
+}
+
+const { title, modrinth, curseforge, source } = Astro.props;
+---
+
+<article>
+  <h2>{title}</h2>
+  <div class="flex gap-2 flex-wrap">
+    {modrinth && <img class="mt-auto" src={`https://img.shields.io/modrinth/dt/${modrinth.id}?logo=modrinth`} />}
+    {curseforge && <img src={`https://img.shields.io/curseforge/dt/${curseforge.id}?logo=curseforge`} />}
+    {
+      () => {
+        if (source == null) {
+          return;
+        }
+
+        switch (source.service) {
+          case "gitlab":
+            return <img src={`https://img.shields.io/gitlab/last-commit/${source.author}/${source.name}?logo=gitlab`} />;
+          default:
+            return <img src={`https://img.shields.io/github/last-commit/${source.author}/${source.name}?logo=github`} />;
+        }
+      }
+    }
+  </div>
+  <p><slot /></p>
+</article>
