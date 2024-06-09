@@ -15,12 +15,13 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Moves directory
-        run: cd www
 
       - name: Install and Build
         uses: withastro/action@v2
@@ -30,6 +31,10 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
