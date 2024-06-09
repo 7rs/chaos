@@ -5,8 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://7rs.github.io',
-  base: 'chaos',
+  site: 'https://7rs.github.io/chaos',
   integrations: [starlight({
     title: 'Chaos',
     social: {
