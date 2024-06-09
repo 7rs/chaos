@@ -1,4 +1,6 @@
 ---
+import Link from "@components/Link.astro"
+
 export interface Props {
   title: string;
   modrinth?: { id: string; name: string };
@@ -10,10 +12,22 @@ const { title, modrinth, curseforge, source } = Astro.props;
 ---
 
 <article>
-  <h2>{title}</h2>
+  <h2 id={title.toLowerCase()}>{title}</h2>
   <div class="flex gap-2 flex-wrap">
-    {modrinth && <img class="mt-auto" src={`https://img.shields.io/modrinth/dt/${modrinth.id}?logo=modrinth`} />}
-    {curseforge && <img src={`https://img.shields.io/curseforge/dt/${curseforge.id}?logo=curseforge`} />}
+    {
+      modrinth && (
+        <Link href={`https://modrinth.com/mod/${modrinth.name}`} openInNewTab>
+          <img class="mt-auto" src={`https://img.shields.io/modrinth/dt/${modrinth.id}?logo=modrinth`} />
+        </Link>
+      )
+    }
+    {
+      curseforge && (
+        <Link href={`https://www.curseforge.com/minecraft/mc-mods/${curseforge.name}`} openInNewTab>
+          <img src={`https://img.shields.io/curseforge/dt/${curseforge.id}?logo=curseforge`} />
+        </Link>
+      )
+    }
     {
       () => {
         if (source == null) {
@@ -22,9 +36,17 @@ const { title, modrinth, curseforge, source } = Astro.props;
 
         switch (source.service) {
           case "gitlab":
-            return <img src={`https://img.shields.io/gitlab/last-commit/${source.author}/${source.name}?logo=gitlab`} />;
+            return (
+              <Link href={`https://gitlab/${source.author}/${source.name}`} openInNewTab>
+                <img src={`https://img.shields.io/gitlab/last-commit/${source.author}/${source.name}?logo=gitlab`} />
+              </Link>
+            );
           default:
-            return <img src={`https://img.shields.io/github/last-commit/${source.author}/${source.name}?logo=github`} />;
+            return (
+              <Link href={`https://github/${source.author}/${source.name}`} openInNewTab>
+                <img src={`https://img.shields.io/github/last-commit/${source.author}/${source.name}?logo=github`} />
+              </Link>
+            );
         }
       }
     }
