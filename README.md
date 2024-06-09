@@ -1,95 +1,54 @@
-[license]: https://img.shields.io/github/license/7rs/chaos?labelColor=blue&color=black
-[powered]: https://img.shields.io/badge/packwiz-black?label=powered&labelColor=red
-[loader]: https://img.shields.io/badge/forge-black?label=loader&labelColor=purple
-[version]: https://img.shields.io/badge/1.20.1-black?label=support&labelColor=green
+# Starlight Starter Kit: Basics
 
-# Chaos  
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-  [![License][license]](https://github.com/7rs/chaos/blob/main/LICENSE)
-  [![Powered][powered]](https://packwiz.infra.link/)
-  [![Loader][loader]](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
-  [![version][version]](https://minecraft.fandom.com/wiki/Java_Edition_1.20.1)  
+```
+npm create astro@latest -- --template starlight
+```
 
-  A modpack mixing mods from any genres.  
-  Supports only 1.20.1 and Forge.  
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
 
-  あらゆるジャンルのMODがミックスされたMODパック。  
-  Forgeと1.20.1のみをサポートする。  
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## License  
+## 🚀 Project Structure
 
-  The mod licenses is retained.  
-  The toml files by Packwiz and Markdown contents are licensed by CC0.  
+Inside of your Astro + Starlight project, you'll see the following folders and files:
 
-  MODのライセンスは保持されます。  
-  Packwizによって生成されたtomlやMarkdownファイルはCC0の下配布します。  
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   ├── docs/
+│   │   └── config.ts
+│   └── env.d.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
+```
 
-### From CurseForge  
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-  | Name | License |
-  | :--: | :-----: |
-  | Better Fps | ARR |
-  | Loot Integrations | ARR |
-  | Cupboard | ARR |
-  | Inventory Spam | BSD (CurseForge) / ARR (GitHub) |
-  | Bocchium | LGPL-3.0 |
-  | FastWorkbench | MIT |
-  | FastFurnace | MIT |
-  | Placebo | MIT |
-  | JEI Integration | MIT |
-  | Catalogue | MIT |
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-## MOD List  
+Static assets, like favicons, can be placed in the `public/` directory.
 
-- [Optimization](resources/optimization.md)
-- [Fix](resources/fix.md)
-- [QoL (Quality of Life)](resources/qol.md)
-- [3D graphics](resources/3d-graphic.md)
-- [HUD](resources/3d-hud.md)
-- [2D graphics/GUI](resources/2d-gui.md)
-- [SE/BGM](resources/sounds.md)
+## 🧞 Commands
 
-## Cloning and Installation  
+All commands are run from the root of the project, from a terminal:
 
-  [Git - depth option](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt-code--depthcodeemltdepthgtem)  
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-  ```sh
-  git clone git@github.com:7rs/chaos.git --depth 1
-  ```  
+## 👀 Want to learn more?
 
-  ```sh
-  cd packwiz/packwiz
-  ```  
-
-## Exports modpack
-
-  ```sh
-  packwiz modrinth export --output dist/chaos-modrinth.mrpack
-  ```  
-
-## Addition mod  
-
-  ```sh
-  packwiz modrinth add [ProjectID]
-  ```  
-
-  ```sh
-  packwiz curseforge add --addon-id [ProjectID]
-  ```  
-
-[better-combat]: https://modrinth.com/mod/better-combat
-[forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
-[neoforge]: https://neoforged.net/
-
-## Errors  
-
-  [Better Combat 1.8.1 and above][better-combat] requires [Forge version 47.2.0][forge],
-  so It isn't available with [NeoForge whose latest release is 47.1.105][neoforge].  
-
-  ```sh
-  packwiz modrinth add --project-id 5sy6g3kz --version-id hNenqXi9
-  ```  
-
-  ```sh
-  packwiz modrinth add --project-id GchcoXML --version-id Bj8M79wL
-  ```  
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).

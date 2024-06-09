@@ -1,8 +1,4 @@
 {
-    "recommendations": [
-        "esbenp.prettier-vscode",
-        "editorconfig.editorconfig",
-        "davidanson.vscode-markdownlint",
-        "golang.go"
-    ]
+  "recommendations": ["astro-build.astro-vscode"],
+  "unwantedRecommendations": []
 }

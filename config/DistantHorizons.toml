@@ -1,8 +1,0 @@
-_version = 2
-
-[client]
-	optionsButton = false
-	[client.advanced]
-		[client.advanced.graphics]
-			[client.advanced.graphics.quality]
-				lodChunkRenderDistanceRadius = 32

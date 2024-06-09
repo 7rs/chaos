@@ -1,0 +1,32 @@
+---
+title: Chaos
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: A modpack mixing mods from any genres.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Get Started
+      link: /guides/get-started/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Fast & Lighter" icon="rocket">
+		Faster and Lighter without overloading computers.
+	</Card>
+	<Card title="Compatibility" icon="approve-check">
+		Works on Windows, Mac, Linux and etc.
+	</Card>
+	<Card title="New World" icon="star">
+		New biomes, new structures, new dimensions, new item, new mob and more...
+	</Card>
+	<Card title="Customizable" icon="setting">
+		Some shaderpacks are installed.
+		Also, customizable it as you like if you can use [Packwiz](https://packwiz.infra.link/).
+	</Card>
+</CardGrid>
