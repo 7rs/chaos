@@ -5,7 +5,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://7rs.github.io/chaos',
+  site: 'https://7rs.github.io',
+  base: "/chaos",
   integrations: [starlight({
     title: 'Chaos',
     social: {
@@ -14,7 +15,7 @@ export default defineConfig({
     sidebar: [{
       label: 'Guides',
       items: [
-    // Each item here is one entry in the navigation menu.
+        // Each item here is one entry in the navigation menu.
         {
           label: 'Example Guide',
           link: '/guides/example/'
