@@ -9,9 +9,6 @@
     "[astro]": {
         "editor.tabSize": 2
     },
-    "[yaml]": {
-        "editor.tabSize": 2
-    },
     "files.associations": {
         ".packwizignore": "ignore"
     }

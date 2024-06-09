@@ -3,6 +3,8 @@
 .vscode/*
 dist/*
 resources/*
+www/*
+docs/*
 
 # Config and Settings
 .editorconfig

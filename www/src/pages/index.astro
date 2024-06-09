@@ -1,0 +1,15 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+
+import Landing from "@components/index/Landing.astro"
+import Explore from "@components/index/Explore.astro";
+import Requirements from "@components/index/Requirements.astro"
+import Download from "@components/index/Download.astro"
+---
+
+<MainLayout title="Chaos Modpack" header={false}>
+  <Landing />
+  <Explore />
+  <Requirements />
+  <Download />
+</MainLayout>

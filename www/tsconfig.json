@@ -1,0 +1,19 @@
+{
+    "exclude": ["*node_modules*", "./packages/**"],
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "nodenext",
+        "moduleResolution": "NodeNext",
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@layouts/*": ["src/layouts/*"],
+            "@components/*": ["src/components/*"],
+            "@styles/*": ["src/styles/*"],
+            "@assets/*": ["src/assets/*"]
+        }
+    }
+}

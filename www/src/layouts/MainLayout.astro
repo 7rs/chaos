@@ -1,0 +1,42 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import { Icon } from "astro-icon/components"
+
+import Header from "@layouts/Header.astro";
+import Footer from "@layouts/Footer.astro";
+
+import "@styles/default.sass";
+
+export interface Props {
+  title: string;
+  header?: boolean;
+  footer?: boolean;
+}
+
+const { title, header = true, footer = true } = Astro.props;
+
+---
+
+<html>
+  <head>
+    <title>{title}</title>
+    <ViewTransitions />
+  </head>
+
+  <body class="relative min-h-screen w-full flex flex-col">
+    {header && <Header><Icon name="chaos" /></Header>}
+    <main class="grow flex flex-col gap-32"><slot /></main>
+    {footer && <Footer>Licensed by CC0</Footer>}
+  </body>
+</html>
+
+<style lang="sass">
+  header
+    z-index: 100
+
+  body
+    background-color: black
+
+  main
+    position: relative
+</style>

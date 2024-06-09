@@ -1,0 +1,26 @@
+{
+    "printWidth": 120,
+    "useTabs": false,
+    "tabWidth": 4,
+    "singleQuote": false,
+    "semi": true,
+    "endOfLine": "lf",
+    "options.editorconfig": true,
+    "plugins": ["prettier-plugin-astro"],
+    "overrides": [
+        {
+            "files": ["*.ts", "*.test.ts", "*.tsx", "postcss.config.mjs"],
+            "options": {
+                "singleQuote": true,
+                "tabWidth": 2
+            }
+        },
+
+        {
+            "files": ["*.astro", "*.sass"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
