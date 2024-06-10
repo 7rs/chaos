@@ -21,6 +21,8 @@ jobs:
 
       - name: Install and Build
         uses: withastro/action@v2
+        with:
+          package-manager: bun@latest
 
   deploy:
     needs: build
