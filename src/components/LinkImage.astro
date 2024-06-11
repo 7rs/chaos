@@ -1,0 +1,17 @@
+---
+import Link from "@components/Link.astro";
+
+export interface Props {
+  href: string;
+  src: string;
+  alt?: string;
+  openInNewTab?: boolean;
+  className?: string;
+}
+
+const { href, src, alt, openInNewTab = true, className } = Astro.props;
+---
+
+<Link href={href} openInNewTab={openInNewTab}>
+  <img src={src} alt={alt} class={className} />
+</Link>

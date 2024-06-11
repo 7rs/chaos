@@ -1,33 +1,39 @@
 ---
-import Link from "@components/Link.astro"
+import LinkImage from "@components/LinkImage.astro";
 
 export interface Props {
-  title: string;
   modrinth?: { id: string; name: string };
   curseforge?: { id: string; name: string };
   source?: { author: string; name: string; service: "github" | "gitlab" };
 }
 
-const { title, modrinth, curseforge, source } = Astro.props;
+const { modrinth, curseforge, source } = Astro.props;
 ---
 
-<article>
-  <h2 id={title.toLowerCase()}>{title}</h2>
+<section>
   <div class="flex gap-2 flex-wrap">
+    <!-- Modrinth Badge -->
     {
       modrinth && (
-        <Link href={`https://modrinth.com/mod/${modrinth.name}`} openInNewTab>
-          <img class="mt-auto" src={`https://img.shields.io/modrinth/dt/${modrinth.id}?logo=modrinth`} />
-        </Link>
+        <LinkImage
+          href={`https://modrinth.com/mod/${modrinth.name}`}
+          src={`https://img.shields.io/modrinth/dt/${modrinth.id}?logo=modrinth`}
+          alt="modrinth badge"
+          className="mt-auto"
+        />
       )
     }
+    <!-- CurseForge Badge -->
     {
       curseforge && (
-        <Link href={`https://www.curseforge.com/minecraft/mc-mods/${curseforge.name}`} openInNewTab>
-          <img src={`https://img.shields.io/curseforge/dt/${curseforge.id}?logo=curseforge`} />
-        </Link>
+        <LinkImage
+          href={`https://www.curseforge.com/minecraft/mc-mods/${curseforge.name}`}
+          src={`https://img.shields.io/curseforge/dt/${curseforge.id}?logo=curseforge`}
+          alt="curseforge badge"
+        />
       )
     }
+    <!-- GitHub/Lab Badge -->
     {
       () => {
         if (source == null) {
@@ -37,19 +43,23 @@ const { title, modrinth, curseforge, source } = Astro.props;
         switch (source.service) {
           case "gitlab":
             return (
-              <Link href={`https://gitlab/${source.author}/${source.name}`} openInNewTab>
-                <img src={`https://img.shields.io/gitlab/last-commit/${source.author}/${source.name}?logo=gitlab`} />
-              </Link>
+              <LinkImage
+                href={`https://gitlab.com/${source.author}/${source.name}`}
+                src={`https://img.shields.io/gitlab/last-commit/${source.author}/${source.name}?logo=gitlab`}
+                alt="gitlab badge"
+              />
             );
           default:
             return (
-              <Link href={`https://github/${source.author}/${source.name}`} openInNewTab>
-                <img src={`https://img.shields.io/github/last-commit/${source.author}/${source.name}?logo=github`} />
-              </Link>
+              <LinkImage
+                href={`https://github.com/${source.author}/${source.name}`}
+                src={`https://img.shields.io/github/last-commit/${source.author}/${source.name}?logo=github`}
+                alt="github badge"
+              />
             );
         }
       }
     }
   </div>
-  <p><slot /></p>
-</article>
+  <slot />
+</section>

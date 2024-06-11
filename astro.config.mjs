@@ -18,9 +18,9 @@ export default defineConfig({
         directory: 'guides'
       }
     }, {
-      label: 'Reference',
+      label: 'Modlist',
         autogenerate: {
-          directory: 'reference'
+          directory: 'mods'
         }
       }]
   }), tailwind()]
