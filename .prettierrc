@@ -34,6 +34,13 @@
         {
             "files": ["*.styl"],
             "options": { "trailingComma": "all" }
+        },
+        {
+            "files": ["*.mdx"],
+            "options": {
+                "singleAttributePerLine": true,
+                "parser": "mdx"
+            }
         }
     ]
 }

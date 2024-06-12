@@ -9,3 +9,6 @@ indent_style = space
 
 [{*.astro,*.md,*.mdx}]
 indent_size = 2
+
+[{*.md,*.mdx}]
+trim_trailing_whitespace = false

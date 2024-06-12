@@ -7,21 +7,33 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://7rs.github.io',
   base: "/chaos",
-  integrations: [starlight({
-    title: 'Chaos',
-    social: {
-      github: 'https://github.com/7rs/chaos'
-    },
-    sidebar: [{
-      label: 'Guides',
-      autogenerate: {
-        directory: 'guides'
-      }
-    }, {
-      label: 'Modlist',
-        autogenerate: {
-          directory: 'mods'
-        }
-      }]
-  }), tailwind()]
+  markdown: {
+    shikiConfig: {
+      theme: 'dracula',
+    }
+  },
+  integrations: [
+    starlight({
+      title: 'Chaos',
+      customCss: [
+        '@fontsource/fira-sans/400.css',
+        '@fontsource/fira-code/400.css',
+        'src/styles/custom.css'
+      ],
+      social: {
+        github: 'https://github.com/7rs/chaos'
+      },
+      sidebar: [
+        { label: 'Guides', autogenerate: { directory: 'guides' } },
+        { label: 'FAQ', autogenerate: { directory: 'faq' } },
+        { label: 'Modlist', autogenerate: { directory: 'mods' } }
+      ],
+      defaultLocale: "root",
+      locales: {
+        root: { label: 'English', lang: 'en' },
+        'ja': { label: '日本語', lang: 'ja' },
+      },
+    }),
+    tailwind()
+  ]
 });
