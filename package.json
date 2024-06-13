@@ -11,17 +11,20 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
-    "@astrojs/starlight": "^0.24.0",
+    "@astrojs/starlight": "^0.24.2",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.8.6",
-    "sharp": "^0.32.5",
+    "astro": "^4.10.2",
+    "sharp": "^0.33.4",
+    "starlight": "^0.3.9",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
+    "@fontsource/biz-udgothic": "^5.0.19",
+    "@fontsource/biz-udpgothic": "^5.0.19",
     "@fontsource/fira-code": "^5.0.18",
     "@fontsource/fira-sans": "^5.0.20",
-    "prettier": "^3.3.1",
+    "prettier": "^3.3.2",
     "prettier-plugin-astro": "^0.14.0"
   }
 }

@@ -1,0 +1,34 @@
+---
+title: Chaos
+template: splash
+hero:
+  tagline: あらゆるジャンルのMODを含むMODパック。
+  image:
+    file: ../../../assets/chaos.svg
+  actions:
+    - text: はじめる
+      link: /chaos/ja/guides/get-started/
+      icon: right-arrow
+      variant: primary
+    - text: 使われているMODを見る
+      link: /chaos/ja/mods/optimization/
+      icon: information
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="高速かつ軽量" icon="rocket">
+		コンピュータに負荷をかけることなく、高速で軽量です。
+	</Card>
+	<Card title="高い互換性" icon="approve-check">
+		WindowsやMac、Linuxなどのプラットフォームで動作します。
+	</Card>
+	<Card title="新世界" icon="star">
+    新しいバイオーム、新しい建造物、新しいディメンション、新しいアイテム、新しいMOD、大量の要素を追加。
+	</Card>
+	<Card title="カスタマイズ可能" icon="setting">
+    シェーダパックがいくつかプリインストールされており、自由に使えます。
+    また、[Packwiz](https://packwiz.infra.link/)を使って自由にカスタマイズできます。
+	</Card>
+</CardGrid>

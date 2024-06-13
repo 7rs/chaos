@@ -1,4 +1,4 @@
 :root {
-  --sl-font: "Fira Sans", sans-serif;
-  --sl-font-mono: "Fira Code", monospace;
+  --sl-font: "Fira Sans", "BIZ UDPGothic", sans-serif;
+  --sl-font-mono: "Fira Code", "BIZ UDGothic", monospace;
 }

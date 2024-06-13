@@ -1,12 +1,12 @@
 ---
-title: Get Started
+title: はじめる
 ---
 
 import { Tabs, TabItem, LinkCard } from '@astrojs/starlight/components';
 
 [depth]: https://git-scm.com/docs/git-clone#Documentation/git-clone.txt-code--depthcodeemltdepthgtem
 
-## Download  
+## ダウンロード  
 
   <Tabs>
     <TabItem label="HTTPS">
@@ -21,28 +21,27 @@ import { Tabs, TabItem, LinkCard } from '@astrojs/starlight/components';
     </TabItem>
   </Tabs>
 
-  Clone repository of Chaos with HTTPS or SSH.  
-  You can disable the option,
-  but you should use the option because they will reduce data transfer and be faster.  
+  HTTPSかSSHでChaosのリポジトリをクローンします。  
+  オプションは無くても問題無いですが、転送量が減って速く終わるので、使うべきです。  
 
   <LinkCard
     title="Git - git-clone Documentation"
     href="https://git-scm.com/docs/git-clone#Documentation/git-clone.txt-code--depthcodeemltdepthgtem"
   />
 
-## Build  
+## ビルド  
 
   ```sh
   packwiz modrinth export
   ```  
 
-  Move to the root directory of Chaos with `cd chaos` and Run the export command in there.  
+  `cd chaos`などをしてChaosのルートディレクトリに移動し、exportコマンドを実行します。  
 
   ```sh
   packwiz modrinth export --output dist/chaos.mrpack
   ```  
 
-  You can also change the output path and the file name.  
+  出力先やファイル名を変えることもできます。  
 
   <LinkCard
     title="packwiz modrinth export"
@@ -55,14 +54,14 @@ import { Tabs, TabItem, LinkCard } from '@astrojs/starlight/components';
 [mrpack-install]: https://github.com/nothub/mrpack-install
 [packwiz-installer]: https://github.com/packwiz/packwiz-installer
 
-## Installation  
+## インストール  
 
-  Installation is easy.  
-  In client-side, use [Prism Launcher][prism-launcher], [Modrinth App][modrinth-app] or etc.  
-  In server-side, use [packwiz-installer][packwiz-installer], [mrpack-install][mrpack-install] or etc.  
+  インストールは簡単です。
+  クライアント側なら、[Prism Launcher][prism-launcher]や[Modrinth App][modrinth-app]などを使います。  
+  サーバ側なら、[packwiz-installer][packwiz-installer]や[mrpack-install][mrpack-install]などを使います。  
 
   <LinkCard
     title="Modrinth - Modpacks on Modrinth"
-    description="Modrinth format modpack usage."
+    description="Modrinth形式のModpackの使い方"
     href="https://support.modrinth.com/en/articles/8802250-modpacks-on-modrinth"
   />
