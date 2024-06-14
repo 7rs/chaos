@@ -2,41 +2,69 @@
 title: Why Embeddium?
 ---
 
-## Why is a version selected 1.20.1?  
+import { LinkCard } from '@astrojs/starlight/components';
 
-  I was considered 1.16.5 and 1.19.2,
-  but I believe newer versions are more promising, and almost mods are compatible 1.20.1.  
+[forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
+[neoforge]: https://neoforged.net/
+[fabric]: https://fabricmc.net/
+[optifine]: https://www.optifine.net/home
+[modrinth]: https://www.modrinth.com/
+[cursforge]: https://www.curseforge.com/minecraft
+
+## Why does select version 1.20.1?  
+
+  Because I believe newer versions are more promising than older, and almost mods are compatible 1.20.1.  
+
   Furthermore, Mods that supports 1.20.1 are the largest in versions 1.20+,
-  and 1.20.1 was compatible with both NeoForge and Forge.  
+  and 1.20.1 is compatible with both [NeoForge][neoforge] and [Forge][forge].  
 
-## Why not used Fabric?  
+## Why not use Fabric?  
 
-  Because Forge mods larger than Fabric mods.  
-  But Fabric is faster and lighter than Forge, so wanna supports Fabric in the future.  
+  Because number of [Forge][forge] mods larger than number of [Fabric][fabric] mods.  
 
-## Why not used NeoForge?  
+  But [Fabric][fabric] is faster and lighter than [Forge][forge],
+  so I wanna support [Fabric][fabric] in the future.  
 
-  So NeoForge is stopped maintenance to 1.20.1.  
+## Why not use NeoForge?  
+
+  Because [NeoForge][neoforge] is stopped maintenance to 1.20.1.  
+
+  Gonna migrates if [NeoForge][neoforge] supports new Forge version.  
 
 ## Why not use Optifine?  
 
-  No disrespect to Optifine, because Optifine wasn't a good for development of Chaos.  
+  Not available rather than not use.  
+  Because [Optifine][optifine] isn’t distributed on [Modrinth][modrinth] or [CurseForge][cursforge],
+  and redistribution isn’t permitted.  
 
-### Incompatible  
+  Also, [Optifine][optifine] isn’t compatible some mods,
+  and there’re some [Optifine][optifine] version incompatible some [Forge][forge] version.
+  Overmore, [Optifine][optifine] almost features were implemented by official and mods.  
 
-  Optifine isn't compatible some mods.
-  There're some Optifine version that isn't compatible some Forge version.
+  <LinkCard
+    title="Replacements Optifine features"
+    href="/chaos/faq/replacements-optifine-features"
+  />
 
-  > [CurseForge - The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)  
-  > [Create not compatible with Optifine #5366](https://github.com/Creators-of-Create/Create/issues/5366)  
-  > [Let's list mods that conflict with optifine](https://www.reddit.com/r/feedthebeast/comments/ez5fyl/lets_list_mods_that_conflict_with_optifine/)
 
-### License  
+[magnesium]: https://www.curseforge.com/minecraft/mc-mods/sodium-reforged
+[rubidium]: https://modrinth.com/mod/rubidium
+[acedium]: https://github.com/ferriarnus/acedium
+[embeddium]: https://modrinth.com/mod/embeddium
 
-  Optifine isn't distributed on Modrinth or CurseForge and redistribution isn't permitted.  
+## Why not use other mods that are optimize rendering?  
 
-  > [Optifine - FAQ](https://www.optifine.net/faq)
+  Because [Embeddium][embeddium] is maintained.  
 
-### Alternates  
+### Magnesium  
 
-  Also, Optifine almost features were implemented by official and mods.  
+  [Magnesium][magnesium] hasn't been updated since 2021.  
+
+### Rubidium  
+
+  [Rubidium][rubidium] hasn't been updated at 2023,
+  and [Rubidium][rubidium] owner is working on development of [Embeddium][embeddium].  
+
+### Acedium  
+
+  [Acedium][acedium] is only available to nvidia users and [Acedium][acedium] isn't lighter than others.  
