@@ -14,3 +14,7 @@ LICENSE
 
 # Wild card
 *.md
+
+node_modules
+src
+.astro

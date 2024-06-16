@@ -1,7 +1,8 @@
 entityShadows:false
 maxFps:100
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","jaopca:inmemory","Moonlight Mods Dynamic Assets","file/Food Tooltips-1.0.4.zip","file/EBE_1.20.x_v1.1.zip","file/Fast Better Grass.zip","file/[1.4] Enhanced Boss Bars.zip","file/enchant icons 1.20 v1.3.zip","file/GeoFont Legacy v1.2 GUI Scale 4.zip"]
+resourcePacks:["vanilla","mod_resources","jaopca:inmemory","Moonlight Mods Dynamic Assets","file/FreshAnimations_v1.9.zip","file/Eyeless Fresh Moves v3.0.1.zip","file/Fast Better Grass.zip","file/Unique Dark 1.20.1 (free).zip","file/Food Tooltips-1.0.4.zip","file/[1.4.1] Enhanced Boss Bars.zip","file/EBE_1.20.x_v1.1.zip","file/enchant icons 1.20 v1.3.zip","file/GeoFont Legacy v1.2 GUI Scale 4.zip"]
+incompatibleResourcePacks:["file/GeoFont Legacy v1.2 GUI Scale 4.zip"]
 soundCategory_music:0.0
 renderDistance:8
 simulationDistance:8
