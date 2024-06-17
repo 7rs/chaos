@@ -10,13 +10,6 @@
     "astroAllowShorthand": false,
     "overrides": [
         {
-            "files": [".prettierrc", "*.json"],
-            "options": {
-                "parser": "json",
-                "tabWidth": 4
-            }
-        },
-        {
             "files": [
                 "*.ts",
                 "*.mjs",
@@ -30,10 +23,6 @@
             "options": {
                 "singleQuote": true
             }
-        },
-        {
-            "files": ["*.styl"],
-            "options": { "trailingComma": "all" }
         },
         {
             "files": ["*.mdx"],
