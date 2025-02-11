@@ -10,25 +10,9 @@
     "astroAllowShorthand": false,
     "overrides": [
         {
-            "files": [
-                "*.ts",
-                "*.mjs",
-                "*.*.mjs",
-                "*.cjs",
-                "*.*.cjs",
-                "astro.config.mjs",
-                "postcss.config.mjs",
-                "*.mdx"
-            ],
+            "files": ["*.ts", "*.js", "*.mjs"],
             "options": {
                 "singleQuote": true
-            }
-        },
-        {
-            "files": ["*.mdx"],
-            "options": {
-                "singleAttributePerLine": true,
-                "parser": "mdx"
             }
         }
     ]

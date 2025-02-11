@@ -1,13 +1,13 @@
 {
-    "extends": "astro/tsconfigs/strict",
+    "extends": "astro/tsconfigs/base",
+    "include": [".astro/types.d.ts", "**/*"],
+    "exclude": ["dist"],
     "compilerOptions": {
-        // Dependencies
         "module": "nodenext",
         "moduleResolution": "NodeNext",
         "esModuleInterop": true,
         "downlevelIteration": true,
         "allowImportingTsExtensions": true,
-        // TS Options
         "strictNullChecks": true,
         "allowJs": true,
         "resolveJsonModule": true,
@@ -16,7 +16,12 @@
             "@layouts/*": ["src/layouts/*"],
             "@components/*": ["src/components/*"],
             "@styles/*": ["src/styles/*"],
-            "@assets/*": ["src/assets/*"]
+            "@assets/*": ["src/assets/*"],
+            "@scripts/*": ["scripts/*"],
+            "@content/*": ["src/content/*"],
+            "@icons/*": ["src/icons/*"],
+            "@pages/*": ["src/pages/*"],
+            "@/*": ["src/*"]
         }
     }
 }
