@@ -1,37 +1,33 @@
 ---
-title: What is Chaos?
+title: ❓ What is Chaos?
+description: About Chaos and Chaos's goals
 ---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
   Playing Minecraft with mods requires a lot of processes, whether you are a noob or an expert.
   So, Chaos was developed to reduce the process.  
-
----  
-
   First, factors that increase the process are as follows:  
 
-### Versions  
-
-  Each mod supports different Minecraft versions and mod loaders.
-
-### Compatibility  
-
-  The game might not work if mods are incompatible.  
-
-### Library Mods  
-
-  Some mods require library mods.  
-
-### Performance  
-
-  Added mods cause lag and performance drops.  
-
----  
+<CardGrid>
+	<Card title="Versions" icon="list-format">
+		Each mod supports different Minecraft versions and mod loaders.
+	</Card>
+	<Card title="Compatibility" icon="error">
+		The game might not work if mods are incompatible.  
+	</Card>
+	<Card title="Library Mods" icon="setting">
+		Some mods require library mods.  
+	</Card>
+	<Card title="Performance" icon="down-arrow">
+		Added mods cause lag and performance drops.  
+	</Card>
+</CardGrid>
 
   These "Versions", "Compatibility", and "Library Mods" can be solved.
   Because we will distribute modpacks or a binary to generate modpacks with a single command.  
-
   What about "Performance"?
-  Playing with industrial waste that doesn't even run vanilla minecraft is wrong, so we won't solve that problem.
+  Playing with industrial waste that cannot even run vanilla minecraft is wrong, so we won't solve that problem.
   The goal is the low load without lag.
   Shader mods won't be lighter, but the performance problem can be solved.  
 

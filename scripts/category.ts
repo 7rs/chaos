@@ -1,6 +1,6 @@
-import fs from "node:fs";
+import fs from 'node:fs';
 
-interface Category {
+export interface Category {
   label: string;
   translations?: {
     [key: string]: string;

@@ -1,10 +1,16 @@
 ---
-title: Get Started
+title: 🔰 Get Started
+description: A tutorial for play Chaos modpack
 ---
+
 
 import { Tabs, TabItem, LinkCard } from '@astrojs/starlight/components';
 
-[depth]: https://git-scm.com/docs/git-clone#Documentation/git-clone.txt-code--depthcodeemltdepthgtem
+[prism-launcher]: https://prismlauncher.org/
+[modrinth-app]: https://modrinth.com/app
+
+[mrpack-install]: https://github.com/nothub/mrpack-install
+[packwiz-installer]: https://github.com/packwiz/packwiz-installer
 
 ## Download  
 
@@ -22,38 +28,30 @@ import { Tabs, TabItem, LinkCard } from '@astrojs/starlight/components';
   </Tabs>
 
   Clone repository of Chaos with HTTPS or SSH.  
-  You can disable the option,
-  but you should use the option because they will reduce data transfer and be faster.  
-
-  <LinkCard
-    title="Git - git-clone Documentation"
-    href="https://git-scm.com/docs/git-clone#Documentation/git-clone.txt-code--depthcodeemltdepthgtem"
-  />
 
 ## Build  
 
-  ```sh
-  packwiz modrinth export
-  ```  
+  <Tabs>
+    <TabItem label="Default">
+      ```sh
+      packwiz modrinth export
+      ```  
 
-  Move to the root directory of Chaos with `cd chaos` and Run the export command in there.  
+      Move to the root directory of Chaos with `cd chaos` and Run the export command in there.
+    </TabItem>
+    <TabItem label="Specify output">
+      ```sh
+      packwiz modrinth export --output dist/chaos.mrpack
+      ```  
 
-  ```sh
-  packwiz modrinth export --output dist/chaos.mrpack
-  ```  
+      You can also change the output path and the file name.  
 
-  You can also change the output path and the file name.  
-
-  <LinkCard
-    title="packwiz modrinth export"
-    href="https://packwiz.infra.link/reference/commands/packwiz/modrinth/export"
-  />
-
-[prism-launcher]: https://prismlauncher.org/
-[modrinth-app]: https://modrinth.com/app
-
-[mrpack-install]: https://github.com/nothub/mrpack-install
-[packwiz-installer]: https://github.com/packwiz/packwiz-installer
+      <LinkCard
+        title="packwiz modrinth export"
+        href="https://packwiz.infra.link/reference/commands/packwiz/modrinth/export"
+      />
+    </TabItem>
+  </Tabs>
 
 ## Installation  
 

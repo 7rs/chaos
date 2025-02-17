@@ -21,6 +21,7 @@
         "astro-icon": "^1.1.5",
         "astro-purgecss": "^5.2.0",
         "autoprefixer": "^10.4.20",
+        "daisyui": "^4.12.23",
         "postcss-preset-env": "^10.1.4",
         "purgecss": "^7.0.2",
         "starlight": "^0.3.9",
