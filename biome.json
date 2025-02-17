@@ -2,16 +2,41 @@
     "formatter": {
         "enabled": true,
         "indentStyle": "space",
-        "lineWidth": 120
+        "lineWidth": 120,
+        "indentWidth": 4
     },
     "linter": {
         "enabled": true
     },
+    "files": {
+        "ignore": ["**/node_modules/**", "**/dist/**", "**/*.svelte", "**/*.md", "**/*.mdx"]
+    },
     "overrides": [
         {
-            "include": [".prettierrc", "*.json"],
-            "formatter": {
-                "indentWidth": 4
+            "include": ["*.jsonc", ".vscode/*.json"],
+            "json": {
+                "parser": {
+                    "allowComments": true
+                }
+            }
+        },
+        {
+            "include": [
+                "**/*.ts",
+                "**/*.*.ts",
+                "**/*.ts",
+                "**/*.js",
+                "**/*.*.js",
+                "**/*.mjs",
+                "**/*.*.mjs",
+                "**/*.astro"
+            ],
+            "javascript": {
+                "formatter": {
+                    "indentWidth": 2,
+                    "quoteStyle": "single",
+                    "jsxQuoteStyle": "single"
+                }
             }
         }
     ]
